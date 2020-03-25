@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Last_Pharaoh.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9FA6F5D6-5FDA-48EE-861A-9B8B7DCFE1A7}</UniqueIdentifier>
+      <UniqueIdentifier>{064FBA7F-F891-4A3A-8427-324997CC4370}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Last_Pharaoh.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{757C8480-BBFC-4B0E-A409-4880F5B63B5C}</UniqueIdentifier>
+      <UniqueIdentifier>{A943EFF2-C31F-45A3-AEBD-2E2DBEF92329}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Last_Pharaoh">
-      <UniqueIdentifier>{FB686ECF-78EE-403D-B5B0-374B49A4E34E}</UniqueIdentifier>
+      <UniqueIdentifier>{74E30C3C-813B-4659-9656-C3F3BBD02DE8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Last_Pharaoh\Last_Pharaoh.Build.cs">
       <Filter>Source\Last_Pharaoh</Filter>
@@ -41,14 +44,26 @@
     <ClInclude Include="..\..\Source\Last_Pharaoh\Last_PharaohGameModeBase.h">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="..\..\Source\Last_Pharaoh\TrapManager.cpp">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Last_Pharaoh\TrapManager.h">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Last_Pharaoh\VRCharacter.cpp">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\Last_Pharaoh\VRCharacter.h">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Last_Pharaoh\VRCharacter.cpp">
+    <ClInclude Include="..\..\Source\Last_Pharaoh\TrapManagerSingleton.h">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Last_Pharaoh\TrapManagerSingleton.cpp">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClCompile>
   </ItemGroup>

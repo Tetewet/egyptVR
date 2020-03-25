@@ -426,20 +426,20 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "D:\Unreal Projects\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Inc\Last_Pharaoh"
-/I "D:\Unreal Projects\Last_Pharaoh\Source"
-/I "D:\Unreal Projects\Last_Pharaoh\Source\Last_Pharaoh"
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE"
+/I "D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Inc\Last_Pharaoh"
+/I "D:\Unreal Projects\egyptVR\Last_Pharaoh\Source"
+/I "D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\Unreal Projects\Last_Pharaoh\Intermediate\Build\Win64\Last_PharaohEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\Unreal Projects\Last_Pharaoh\Intermediate\Build\Win64\Last_PharaohEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Unreal Projects\Last_Pharaoh\Intermediate\Build\Win64\Last_PharaohEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Unreal Projects\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Inc\Last_Pharaoh\Last_Pharaoh.init.gen.cpp"
-/FI"D:\Unreal Projects\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\Definitions.Last_Pharaoh.h"
-/Fo"D:\Unreal Projects\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\Last_Pharaoh.init.gen.cpp.obj"
+/FI"D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\Last_PharaohEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\Last_PharaohEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\Last_PharaohEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Inc\Last_Pharaoh\Last_Pharaoh.init.gen.cpp"
+/FI"D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\Definitions.Last_Pharaoh.h"
+/Fo"D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\Last_Pharaoh.init.gen.cpp.obj"
 /TP
 /GR-
 /W4

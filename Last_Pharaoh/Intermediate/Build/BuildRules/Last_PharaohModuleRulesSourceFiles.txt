@@ -1,3 +1,3 @@
-D:\Unreal Projects\Last_Pharaoh\Source\Last_Pharaoh\Last_Pharaoh.Build.cs
-D:\Unreal Projects\Last_Pharaoh\Source\Last_Pharaoh.Target.cs
-D:\Unreal Projects\Last_Pharaoh\Source\Last_PharaohEditor.Target.cs
+D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\Last_Pharaoh.Build.cs
+D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh.Target.cs
+D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_PharaohEditor.Target.cs

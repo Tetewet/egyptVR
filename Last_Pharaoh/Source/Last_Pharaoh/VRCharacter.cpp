@@ -87,7 +87,7 @@ void AVRCharacter::CheckTeleport()
 void AVRCharacter::Teleport()
 {
 	FTimerHandle TeleportTimer;
-	GetWorld()->GetTimerManager().SetTimer(TeleportTimer, this, &APlayerCameraManager::StartCameraFade(0,1,0.5f,COLOR_BLACK,false, true), 0.5f, true);
+	//GetWorld()->GetTimerManager().SetTimer(TeleportTimer, this, &APlayerCameraManager::StartCameraFade(0,1,0.5f,COLOR_BLACK,false, true), 0.5f, true);
 
 	SetActorLocation(TeleportMarker->GetComponentLocation());
 }
