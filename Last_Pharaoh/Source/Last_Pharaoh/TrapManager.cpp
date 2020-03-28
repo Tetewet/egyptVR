@@ -42,5 +42,21 @@ TSubclassOf<AActor> ATrapManager::AGetTrapManagerInstance()
 
 void ATrapManager::SpawnTrap(FVector Location, FRotator Rotation)
 {
-
+	int Random = 1;
+	//switch for different case scenarios
+	switch (Random)
+	{
+	case 1:
+		//fire_trap
+		TrapFactory->CreateTrap();
+		break;
+	case 2:
+		//spike_trap
+		TrapFactory->CreateTrap();
+		break;
+	case 3:
+		//dart_trap
+		TrapFactory->CreateTrap();
+		break;
+	}
 }

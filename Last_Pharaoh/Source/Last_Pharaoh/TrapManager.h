@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/World.h"
+#include "Trap.h"
 #include "GameFramework/Actor.h"
 #include "TrapManager.generated.h"
 
@@ -22,6 +23,7 @@ public:
 private:
 	TSubclassOf<AActor> Instance;
 	UWorld* WRLD;
+	ATrap* TrapFactory;
 	FVector Location;
 	FRotator Rotation;
 

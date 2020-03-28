@@ -40,7 +40,7 @@ void ATrap::NotifyActorBeginOverlap(AActor* OtherActor)
 	}
 }
 
-void ATrap::CreateTrap(FVector Location, FRotator Rotation)
+void ATrap::CreateTrap()
 {
 	// this is essentially our factory : random trap created and make it 'spawnable' through the arguments of this method
 
