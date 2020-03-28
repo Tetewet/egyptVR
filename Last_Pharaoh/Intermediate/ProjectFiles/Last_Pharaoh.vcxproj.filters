@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Last_Pharaoh.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{064FBA7F-F891-4A3A-8427-324997CC4370}</UniqueIdentifier>
+      <UniqueIdentifier>{D071C605-5136-42F5-9535-B396698F2418}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Last_Pharaoh.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A943EFF2-C31F-45A3-AEBD-2E2DBEF92329}</UniqueIdentifier>
+      <UniqueIdentifier>{6A9C1A4A-FCD5-4634-84F4-CF309E674369}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Last_Pharaoh">
-      <UniqueIdentifier>{74E30C3C-813B-4659-9656-C3F3BBD02DE8}</UniqueIdentifier>
+      <UniqueIdentifier>{B2A1AA6F-C3C7-45ED-9B2F-AD5C64946C3E}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Last_Pharaoh\Fire_Trap.cpp">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Last_Pharaoh\Fire_Trap.h">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Last_Pharaoh\Last_Pharaoh.Build.cs">
       <Filter>Source\Last_Pharaoh</Filter>
     </None>
@@ -44,10 +50,28 @@
     <ClInclude Include="..\..\Source\Last_Pharaoh\Last_PharaohGameModeBase.h">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Last_Pharaoh\Spike_Trap.cpp">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Last_Pharaoh\Spike_Trap.h">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Last_Pharaoh\Trap.cpp">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Last_Pharaoh\Trap.h">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Last_Pharaoh\TrapManager.cpp">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Last_Pharaoh\TrapManager.h">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Last_Pharaoh\TrapManagerSingleton.cpp">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Last_Pharaoh\TrapManagerSingleton.h">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Last_Pharaoh\VRCharacter.cpp">
@@ -56,27 +80,5 @@
     <ClInclude Include="..\..\Source\Last_Pharaoh\VRCharacter.h">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Last_Pharaoh\Spike_Trap.h">
-      <Filter>Source\Last_Pharaoh</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Last_Pharaoh\Fire_Trap.h">
-      <Filter>Source\Last_Pharaoh</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Last_Pharaoh\Trap.h">
-      <Filter>Source\Last_Pharaoh</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Last_Pharaoh\Spike_Trap.cpp">
-      <Filter>Source\Last_Pharaoh</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Last_Pharaoh\Fire_Trap.cpp">
-      <Filter>Source\Last_Pharaoh</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Last_Pharaoh\Trap.cpp">
-      <Filter>Source\Last_Pharaoh</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
