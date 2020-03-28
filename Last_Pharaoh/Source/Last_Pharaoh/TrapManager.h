@@ -17,11 +17,13 @@ private:
 	ATrapManager();
 
 public:
-	static ATrapManager AGetTrapManagerInstance();
+	TSubclassOf<AActor> AGetTrapManagerInstance();
 
 private:
-	static ATrapManager *Instance;
+	TSubclassOf<AActor> Instance;
 	UWorld* WRLD;
+	FVector Location;
+	FRotator Rotation;
 
 protected:
 	// Called when the game starts or when spawned
@@ -30,5 +32,5 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	virtual void SpawnTrap(FVector Location, FRotator Rotation);
 };

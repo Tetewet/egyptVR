@@ -10,14 +10,15 @@ ATrapManager::ATrapManager()
 	PrimaryActorTick.bCanEverTick = true;
 	WRLD = GetWorld();
 	
-	
+	Location = GetActorLocation();
+	Rotation = GetActorRotation();
 }
 
 // Called when the game starts or when spawned
 void ATrapManager::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
@@ -27,12 +28,19 @@ void ATrapManager::Tick(float DeltaTime)
 
 }
 
-ATrapManager ATrapManager::AGetTrapManagerInstance()
+TSubclassOf<AActor> ATrapManager::AGetTrapManagerInstance()
 {
+	//singleton : si l'instance est nulle, en faire une nouvelle. si elle n'est pas nulle, retourner l'instance de la classe
 	if (Instance == nullptr)
 	{
-		Instance = ATrapManager();
-		WRLD->SpawnActor(Instance);
+		Instance = TSubclassOf<AActor>();
+		//
+		WRLD->SpawnActor(Instance, &Location, &Rotation);
 	}
 	return Instance;
+}
+
+void ATrapManager::SpawnTrap(FVector Location, FRotator Rotation)
+{
+
 }

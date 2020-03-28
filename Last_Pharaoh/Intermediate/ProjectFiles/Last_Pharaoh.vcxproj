@@ -372,15 +372,19 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\Last_Pharaoh\Last_Pharaoh.Build.cs" />
+    <ClCompile Include="..\..\Source\Last_Pharaoh\Fire_Trap.cpp" />
     <ClCompile Include="..\..\Source\Last_Pharaoh\Last_Pharaoh.cpp" />
+    <ClInclude Include="..\..\Source\Last_Pharaoh\Fire_Trap.h" />
     <ClInclude Include="..\..\Source\Last_Pharaoh\Last_Pharaoh.h" />
     <ClCompile Include="..\..\Source\Last_Pharaoh\Last_PharaohGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\Last_Pharaoh\Last_PharaohGameModeBase.h" />
+    <ClCompile Include="..\..\Source\Last_Pharaoh\Spike_Trap.cpp" />
+    <ClCompile Include="..\..\Source\Last_Pharaoh\Trap.cpp" />
     <ClCompile Include="..\..\Source\Last_Pharaoh\TrapManager.cpp" />
+    <ClInclude Include="..\..\Source\Last_Pharaoh\Spike_Trap.h" />
+    <ClInclude Include="..\..\Source\Last_Pharaoh\Trap.h" />
     <ClInclude Include="..\..\Source\Last_Pharaoh\TrapManager.h" />
-    <ClCompile Include="..\..\Source\Last_Pharaoh\TrapManagerSingleton.cpp" />
     <ClCompile Include="..\..\Source\Last_Pharaoh\VRCharacter.cpp" />
-    <ClInclude Include="..\..\Source\Last_Pharaoh\TrapManagerSingleton.h" />
     <ClInclude Include="..\..\Source\Last_Pharaoh\VRCharacter.h" />
   </ItemGroup>
   <PropertyGroup>

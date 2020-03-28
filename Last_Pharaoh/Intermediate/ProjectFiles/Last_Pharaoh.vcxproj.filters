@@ -58,12 +58,24 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\Last_Pharaoh\TrapManagerSingleton.h">
+    <ClInclude Include="..\..\Source\Last_Pharaoh\Spike_Trap.h">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Last_Pharaoh\Fire_Trap.h">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Last_Pharaoh\Trap.h">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Last_Pharaoh\TrapManagerSingleton.cpp">
+    <ClCompile Include="..\..\Source\Last_Pharaoh\Spike_Trap.cpp">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Last_Pharaoh\Fire_Trap.cpp">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Last_Pharaoh\Trap.cpp">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClCompile>
   </ItemGroup>
