@@ -6,9 +6,11 @@
 #include "GameFramework/Character.h"
 #include "Components/InputComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "GameFramework/PlayerController.h"
+#include "Camera/PlayerCameraManager.h"
+#include "Components/CapsuleComponent.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "TimerManager.h"
-#include "GameFramework/PlayerController.h"
 //#include "MotionControllerComponent.h"
 #include "Camera/CameraComponent.h"
 #include "VRCharacter.generated.h"
@@ -41,11 +43,18 @@ private:
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* TeleportMarker;
 	UPROPERTY(EditAnywhere)
+		float TeleportFadeTimer = 0.8f; 
+	UPROPERTY(EditAnywhere)
+		float FadeTime = 0.5f;
+	UPROPERTY(EditAnywhere)
 		float MaxTeleport = 1000;
+	APlayerController* PlayerController;
 
 	void MoveForward(float move);
 	void MoveRight(float move);
 	void MoveRootToCamera();
 	void CheckTeleport();
+	void BeginTeleport();
 	void Teleport();
+	void EndTeleport();
 };

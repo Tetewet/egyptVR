@@ -43,9 +43,12 @@ void AVRCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	//moving forward axis
 	PlayerInputComponent->BindAxis(TEXT("Forward"), this, &AVRCharacter::MoveForward);
+	//moving sideways axis
 	PlayerInputComponent->BindAxis(TEXT("Right"), this, &AVRCharacter::MoveRight);
-	PlayerInputComponent->BindAction(TEXT("Teleport"), IE_Released, this, &AVRCharacter::Teleport);
+	//teleport actions
+	PlayerInputComponent->BindAction(TEXT("Teleport"), IE_Released, this, &AVRCharacter::BeginTeleport);
 }
 
 void AVRCharacter::MoveForward(float move)
@@ -84,10 +87,41 @@ void AVRCharacter::CheckTeleport()
 	TeleportMarker->SetVisibility(bHit);
 }
 
+void AVRCharacter::BeginTeleport()
+{
+	//get the player controller 
+	PlayerController = Cast<APlayerController>(GetController());
+	//check if null
+	if (PlayerController != nullptr)
+	{
+		//fade the camera
+		PlayerController->PlayerCameraManager->StartCameraFade(0, 1, TeleportFadeTimer, FLinearColor::Black, false, true);
+	}
+	//set a timer handle
+	FTimerHandle TeleportTimer;
+	//timer to teleport after the fade
+	GetWorld()->GetTimerManager().SetTimer(TeleportTimer, this, &AVRCharacter::Teleport, TeleportFadeTimer);
+}
+
 void AVRCharacter::Teleport()
 {
-	FTimerHandle TeleportTimer;
-	//GetWorld()->GetTimerManager().SetTimer(TeleportTimer, this, &APlayerCameraManager::StartCameraFade(0,1,0.5f,COLOR_BLACK,false, true), 0.5f, true);
+	//fix for the camera not teleporting good enough (getcapsulecomponent)
+	//teleport to location
+	SetActorLocation(TeleportMarker->GetComponentLocation() + GetCapsuleComponent()->GetScaledCapsuleHalfHeight());
 
-	SetActorLocation(TeleportMarker->GetComponentLocation());
+	// i want to make sure the teleport is done when inside the camera fade, i gotta make another method...
+	FTimerHandle TeleportTimer;
+	GetWorld()->GetTimerManager().SetTimer(TeleportTimer, this, &AVRCharacter::EndTeleport, FadeTime);
+}
+
+void AVRCharacter::EndTeleport()
+{
+	//get the player controller 
+	PlayerController = Cast<APlayerController>(GetController());
+	//check if null
+	if (PlayerController != nullptr)
+	{
+		//fade the camera
+		PlayerController->PlayerCameraManager->StartCameraFade(1, 0, TeleportFadeTimer + 0.5f, FLinearColor::Black, false, true);
+	}
 }

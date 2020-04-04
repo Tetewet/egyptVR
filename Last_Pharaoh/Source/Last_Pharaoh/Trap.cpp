@@ -40,8 +40,37 @@ void ATrap::NotifyActorBeginOverlap(AActor* OtherActor)
 	}
 }
 
-void ATrap::CreateTrap()
-{
-	// this is essentially our factory : random trap created and make it 'spawnable' through the arguments of this method
+//ATrap ATrap::CreateTrap(int index)
+//{
+//	// this is essentially our factory : random trap created and make it 'spawnable' through the arguments of this method
+//	switch (index)
+//	{
+//	case 1:
+//		//fire_trap
+//		//return ATrap::CreateFireTrap();
+//		break;
+//	case 2:
+//		//spike_trap
+//		//return ATrap::CreateSpikeTrap(); //this is wrong i can't create objects like this with ue4. i need to use WRLD->SpawnActor()
+//		break;
+//	case 3:
+//		//dart_trap
+//		//return (ATrap)ATrap::CreateDartTrap();
+//		break;
+//	}
+//}
 
-}
+//AFire_Trap ATrap::CreateFireTrap()
+//{
+//	return AFire_Trap();
+//}
+//
+//ASpike_Trap ATrap::CreateSpikeTrap()
+//{
+//	return ASpike_Trap();
+//}
+
+//ATrap ATrap::CreateDartTrap()
+//{
+//return this;
+//}

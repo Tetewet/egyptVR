@@ -23,7 +23,8 @@ public:
 private:
 	TSubclassOf<AActor> Instance;
 	UWorld* WRLD;
-	ATrap* TrapFactory;
+	TArray<ATrap> TrapFactory;
+	ATrap* TrapInstance;
 	FVector Location;
 	FRotator Rotation;
 

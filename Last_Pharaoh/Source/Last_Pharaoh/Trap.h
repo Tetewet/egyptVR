@@ -4,6 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "Engine.h"
+//#include "Fire_Trap.h"
+//#include "Spike_Trap.h"
+//#include "Dart_Trap.h"
 #include "VRCharacter.h"
 #include "Components/BoxComponent.h"
 #include "GameFramework/Actor.h"
@@ -34,5 +37,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
-	virtual void CreateTrap();
+	//ATrap CreateTrap(int index);
+	//AFire_Trap CreateFireTrap();
+	//ASpike_Trap CreateSpikeTrap();
+	//ATrap CreateDartTrap();
 };

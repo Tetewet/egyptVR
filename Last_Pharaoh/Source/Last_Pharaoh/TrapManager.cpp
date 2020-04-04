@@ -6,10 +6,10 @@
 // Sets default values
 ATrapManager::ATrapManager()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	WRLD = GetWorld();
-	
+
 	Location = GetActorLocation();
 	Rotation = GetActorRotation();
 }
@@ -42,21 +42,8 @@ TSubclassOf<AActor> ATrapManager::AGetTrapManagerInstance()
 
 void ATrapManager::SpawnTrap(FVector Location, FRotator Rotation)
 {
-	int Random = 1;
+	int Random = FMath::RandRange(1, 3);
 	//switch for different case scenarios
-	switch (Random)
-	{
-	case 1:
-		//fire_trap
-		TrapFactory->CreateTrap();
-		break;
-	case 2:
-		//spike_trap
-		TrapFactory->CreateTrap();
-		break;
-	case 3:
-		//dart_trap
-		TrapFactory->CreateTrap();
-		break;
-	}
+	//TrapFactory.Add(TrapInstance->CreateTrap(Random));
+	
 }
