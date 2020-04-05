@@ -20,6 +20,10 @@ AVRCharacter::AVRCharacter()
 	//teleport marker
 	TeleportMarker = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TeleportMarker"));
 	TeleportMarker->SetupAttachment(GetRootComponent());
+
+	//post process component
+	PostProcessComponent = CreateDefaultSubobject<UPostProcessComponent>(TEXT("PostProcessComponent"));
+	PostProcessComponent->SetupAttachment(GetRootComponent());
 }
 
 // Called when the game starts or when spawned
@@ -68,21 +72,29 @@ void AVRCharacter::MoveRootToCamera()
 	//offset.z to 0 might come in conflict with avoiding traps in the future
 	//offset.Z = 0;
 
-
 	AddActorWorldOffset(offset);
 	VRRoot->AddWorldOffset(-offset);
 }
 
+///this is to update the teleport marker to show it on screen
 void AVRCharacter::CheckTeleport()
 {
+	//raycast hit on the ground to put the marker there and get the location of the marker later on (for teleport purposes)
 	FHitResult HitResult;
+	//this navmesh is to know whether or not we're raycasting on the ground or not
+	FNavLocation NavmeshLocation;
+	//start of raycast
 	FVector Start = Camera->GetComponentLocation();
-	FVector End = Camera->GetForwardVector() * MaxTeleport;
+	//max of raycast
+	FVector End = Start + Camera->GetForwardVector() * MaxTeleport;
+	//raycast
 	bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility);
+	UNavigationSystemV1* NavmeshSystem = UNavigationSystemV1::GetNavigationSystem(GetWorld());
+	bool bOnNavMesh = NavmeshSystem->ProjectPointToNavigation(HitResult.Location, NavmeshLocation, TeleportExtent);
 
-	if (bHit)
+	if (bHit && bOnNavMesh)
 	{
-		TeleportMarker->SetWorldLocation(HitResult.Location);
+		TeleportMarker->SetWorldLocation(NavmeshLocation.Location);
 	}
 	TeleportMarker->SetVisibility(bHit);
 }

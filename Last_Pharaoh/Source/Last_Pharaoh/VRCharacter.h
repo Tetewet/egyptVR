@@ -6,11 +6,13 @@
 #include "GameFramework/Character.h"
 #include "Components/InputComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Components/CapsuleComponent.h"
+#include "Components/PostProcessComponent.h"
 #include "GameFramework/PlayerController.h"
 #include "Camera/PlayerCameraManager.h"
-#include "Components/CapsuleComponent.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "TimerManager.h"
+#include "NavigationSystem.h"
 //#include "MotionControllerComponent.h"
 #include "Camera/CameraComponent.h"
 #include "VRCharacter.generated.h"
@@ -48,6 +50,10 @@ private:
 		float FadeTime = 0.5f;
 	UPROPERTY(EditAnywhere)
 		float MaxTeleport = 1000;
+	UPROPERTY(EditAnywhere)
+		FVector TeleportExtent;
+	UPROPERTY()
+		UPostProcessComponent* PostProcessComponent;
 	APlayerController* PlayerController;
 
 	void MoveForward(float move);

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LAST_PHARAOH_VRCharacter_generated_h
 
-#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_RPC_WRAPPERS
-#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS
-#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_INCLASS_NO_PURE_DECLS \
+#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_RPC_WRAPPERS
+#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_RPC_WRAPPERS_NO_PURE_DECLS
+#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAVRCharacter(); \
 	friend struct Z_Construct_UClass_AVRCharacter_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AVRCharacter)
 
 
-#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_INCLASS \
+#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_INCLASS \
 private: \
 	static void StaticRegisterNativesAVRCharacter(); \
 	friend struct Z_Construct_UClass_AVRCharacter_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AVRCharacter)
 
 
-#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_STANDARD_CONSTRUCTORS \
+#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AVRCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AVRCharacter) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_ENHANCED_CONSTRUCTORS \
+#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AVRCharacter(AVRCharacter&&); \
@@ -57,34 +57,36 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVRCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AVRCharacter)
 
 
-#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
+#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AVRCharacter, Camera); } \
 	FORCEINLINE static uint32 __PPO__VRRoot() { return STRUCT_OFFSET(AVRCharacter, VRRoot); } \
 	FORCEINLINE static uint32 __PPO__TeleportMarker() { return STRUCT_OFFSET(AVRCharacter, TeleportMarker); } \
 	FORCEINLINE static uint32 __PPO__TeleportFadeTimer() { return STRUCT_OFFSET(AVRCharacter, TeleportFadeTimer); } \
 	FORCEINLINE static uint32 __PPO__FadeTime() { return STRUCT_OFFSET(AVRCharacter, FadeTime); } \
-	FORCEINLINE static uint32 __PPO__MaxTeleport() { return STRUCT_OFFSET(AVRCharacter, MaxTeleport); }
+	FORCEINLINE static uint32 __PPO__MaxTeleport() { return STRUCT_OFFSET(AVRCharacter, MaxTeleport); } \
+	FORCEINLINE static uint32 __PPO__TeleportExtent() { return STRUCT_OFFSET(AVRCharacter, TeleportExtent); } \
+	FORCEINLINE static uint32 __PPO__PostProcessComponent() { return STRUCT_OFFSET(AVRCharacter, PostProcessComponent); }
 
 
-#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_18_PROLOG
-#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_GENERATED_BODY_LEGACY \
+#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_20_PROLOG
+#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
-	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_RPC_WRAPPERS \
-	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_INCLASS \
-	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_STANDARD_CONSTRUCTORS \
+	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_PRIVATE_PROPERTY_OFFSET \
+	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_RPC_WRAPPERS \
+	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_INCLASS \
+	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_GENERATED_BODY \
+#define Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
-	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
-	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_INCLASS_NO_PURE_DECLS \
-	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_21_ENHANCED_CONSTRUCTORS \
+	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_PRIVATE_PROPERTY_OFFSET \
+	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_INCLASS_NO_PURE_DECLS \
+	Last_Pharaoh_Source_Last_Pharaoh_VRCharacter_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
