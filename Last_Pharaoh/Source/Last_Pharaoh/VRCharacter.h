@@ -12,6 +12,7 @@
 #include "Camera/PlayerCameraManager.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "TimerManager.h"
+#include "Engine.h"
 #include "NavigationSystem.h"
 //#include "MotionControllerComponent.h"
 #include "Camera/CameraComponent.h"
@@ -37,6 +38,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY(VisibleAnywhere)
+		float Life = 1;
+
 private:
 	UPROPERTY(VisibleAnywhere)
 		UCameraComponent* Camera;
@@ -54,6 +58,7 @@ private:
 		FVector TeleportExtent;
 	UPROPERTY()
 		UPostProcessComponent* PostProcessComponent;
+	
 	APlayerController* PlayerController;
 
 	void MoveForward(float move);

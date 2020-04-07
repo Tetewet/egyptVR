@@ -4,10 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "Engine.h"
-//#include "Fire_Trap.h"
-//#include "Spike_Trap.h"
-//#include "Dart_Trap.h"
 #include "VRCharacter.h"
+#include "TimerManager.h"
+#include "DamageTrap.h"
 #include "Components/BoxComponent.h"
 #include "GameFramework/Actor.h"
 #include "Trap.generated.h"
@@ -16,29 +15,29 @@ UCLASS()
 class LAST_PHARAOH_API ATrap : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ATrap();
 
-	UPROPERTY(VisibleAnywhere)
-		UBoxComponent* CollisionBox;
+	//i dont need a collision box, just a location from whom to spawn the damage traps
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* BaseMesh;
 	UPROPERTY(EditAnywhere)
-		float Damage;
-	bool IsTriggered;
+		float TrapTimer = 2;
+	UPROPERTY(EditAnywhere)
+		FVector Location;
+	UPROPERTY(EditAnywhere)
+		FRotator Rotation;
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<ADamageTrap> DamageTrap;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
-	//ATrap CreateTrap(int index);
-	//AFire_Trap CreateFireTrap();
-	//ASpike_Trap CreateSpikeTrap();
-	//ATrap CreateDartTrap();
+	void TriggeredTrap();
 };

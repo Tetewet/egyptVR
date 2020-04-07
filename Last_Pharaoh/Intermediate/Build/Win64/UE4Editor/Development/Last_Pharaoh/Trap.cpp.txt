@@ -701,4 +701,6 @@ D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem
 D:\Unreal\UE_4.22\Engine\Source\Runtime\NavigationSystem\Public\NavigationOctree.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationSystem.generated.h
 D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Inc\Last_Pharaoh\VRCharacter.generated.h
+D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\DamageTrap.h
+D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Inc\Last_Pharaoh\DamageTrap.generated.h
 D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Inc\Last_Pharaoh\Trap.generated.h

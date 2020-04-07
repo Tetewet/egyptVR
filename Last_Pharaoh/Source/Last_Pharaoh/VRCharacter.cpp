@@ -40,6 +40,11 @@ void AVRCharacter::Tick(float DeltaTime)
 
 	MoveRootToCamera();
 	CheckTeleport();
+	//GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Black, TEXT("life : %Life"));
+	/*if (Life < 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Black, TEXT("YOU'RE DEAD"));
+	}*/
 }
 
 // Called to bind functionality to input
