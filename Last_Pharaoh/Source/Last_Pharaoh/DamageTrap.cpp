@@ -43,7 +43,7 @@ void ADamageTrap::NotifyActorBeginOverlap(AActor* OtherActor)
 	if (player != nullptr)
 	{
 		//in case i need to move the character :
-		OtherActor->GetComponentByClass(UCharacterMovementComponent::StaticClass());
+		//OtherActor->GetComponentByClass(UCharacterMovementComponent::StaticClass());
 
 		//damage the player or kill him
 		player->Life -= Damage;
