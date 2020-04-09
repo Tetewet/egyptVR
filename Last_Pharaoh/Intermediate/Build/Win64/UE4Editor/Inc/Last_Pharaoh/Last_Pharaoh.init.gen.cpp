@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeLast_Pharaoh_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xBC98B97E,
+				0x4402BC0F,
 				0x372AB3C6,
 				METADATA_PARAMS(nullptr, 0)
 			};

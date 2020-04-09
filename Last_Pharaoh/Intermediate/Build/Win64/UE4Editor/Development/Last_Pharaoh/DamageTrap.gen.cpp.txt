@@ -11,10 +11,6 @@ D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/CapsuleCompone
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
-D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/PostProcessComponent.h
-D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Interfaces/Interface_PostProcessVolume.h
-D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Interface_PostProcessVolume.generated.h
-D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PostProcessComponent.generated.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayFunctionLibrary.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayTypes.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayTypes.generated.h
@@ -243,6 +239,8 @@ D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/KillZVolume
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KillZVolume.generated.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/PainCausingVolume.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PainCausingVolume.generated.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Interfaces/Interface_PostProcessVolume.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Interface_PostProcessVolume.generated.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/PostProcessVolume.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PostProcessVolume.generated.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/TriggerVolume.h
@@ -363,6 +361,8 @@ D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/DirectionalLig
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DirectionalLightComponent.generated.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SkyLightComponent.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkyLightComponent.generated.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/PostProcessComponent.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PostProcessComponent.generated.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ArrowComponent.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ArrowComponent.generated.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/BillboardComponent.h

@@ -24,6 +24,8 @@ AVRCharacter::AVRCharacter()
 	//post process component
 	PostProcessComponent = CreateDefaultSubobject<UPostProcessComponent>(TEXT("PostProcessComponent"));
 	PostProcessComponent->SetupAttachment(GetRootComponent());
+
+
 }
 
 // Called when the game starts or when spawned
@@ -31,6 +33,12 @@ void AVRCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
+	if (BlinkerMaterial != nullptr)
+	{
+		//making a dynamic instance material (with one material, you can make multiple different ones and change them through code)
+		BlinkerMaterialInstance = UMaterialInstanceDynamic::Create(BlinkerMaterial, this);
+		PostProcessComponent->AddOrUpdateBlendable(BlinkerMaterialInstance);
+	}
 }
 
 // Called every frame
@@ -59,16 +67,23 @@ void AVRCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	//teleport actions
 	PlayerInputComponent->BindAction(TEXT("Teleport"), IE_Released, this, &AVRCharacter::BeginTeleport);
 }
-
+//this is to move forward or backwards
 void AVRCharacter::MoveForward(float move)
 {
+	//move the camera forward or backwards depending on the float given (-1 or 1)
 	AddActorWorldTransform(FTransform(move * Camera->GetForwardVector()));
 	AddMovementInput(move * Camera->GetForwardVector());
+	//update the blinker for tunnel vision
+	UpdateBlinker();
 }
+
+//this is to move on the sides
 void AVRCharacter::MoveRight(float move)
 {
+	//move the camera on the right or left depending on the float given (-1 or 1)
 	AddMovementInput(move * Camera->GetRightVector());
 	AddActorWorldTransform(FTransform(move * Camera->GetRightVector()));
+	UpdateBlinker();
 }
 
 void AVRCharacter::MoveRootToCamera()
@@ -141,4 +156,15 @@ void AVRCharacter::EndTeleport()
 		//fade the camera
 		PlayerController->PlayerCameraManager->StartCameraFade(1, 0, TeleportFadeTimer + 0.5f, FLinearColor::Black, false, true);
 	}
+}
+
+void AVRCharacter::UpdateBlinker()
+{
+	if (BlinkerRadius != nullptr)
+	{
+		float Speed = GetVelocity().Size();
+		float Radius = BlinkerRadius->GetFloatValue(Speed);
+		BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"), Radius);
+	}
+
 }

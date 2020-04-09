@@ -7,7 +7,8 @@
 #include "Components/InputComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/CapsuleComponent.h"
-#include "Components/PostProcessComponent.h"
+//#include "Components/PostProcessComponent.h"
+//#include "Material/MaterialInstanceDynamic.h"
 #include "GameFramework/PlayerController.h"
 #include "Camera/PlayerCameraManager.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
@@ -49,7 +50,7 @@ private:
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* TeleportMarker;
 	UPROPERTY(EditAnywhere)
-		float TeleportFadeTimer = 0.8f; 
+		float TeleportFadeTimer = 0.8f;
 	UPROPERTY(EditAnywhere)
 		float FadeTime = 0.5f;
 	UPROPERTY(EditAnywhere)
@@ -57,8 +58,15 @@ private:
 	UPROPERTY(EditAnywhere)
 		FVector TeleportExtent;
 	UPROPERTY()
-		UPostProcessComponent* PostProcessComponent;
-	
+		class UPostProcessComponent* PostProcessComponent;
+	UPROPERTY(EditAnywhere)
+		class UMaterialInterface* BlinkerMaterial;
+	UPROPERTY()
+		class UMaterialInstanceDynamic* BlinkerMaterialInstance;
+	UPROPERTY(EditAnywhere)
+		class UCurveFloat* BlinkerRadius;
+
+
 	APlayerController* PlayerController;
 
 	void MoveForward(float move);
@@ -68,4 +76,5 @@ private:
 	void BeginTeleport();
 	void Teleport();
 	void EndTeleport();
+	void UpdateBlinker();
 };

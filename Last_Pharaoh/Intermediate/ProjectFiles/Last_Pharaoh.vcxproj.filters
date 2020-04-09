@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Last_Pharaoh.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D071C605-5136-42F5-9535-B396698F2418}</UniqueIdentifier>
+      <UniqueIdentifier>{24F2BA2B-6876-4B4B-B28C-6AC8CFE3B44F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Last_Pharaoh.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6A9C1A4A-FCD5-4634-84F4-CF309E674369}</UniqueIdentifier>
+      <UniqueIdentifier>{0CEF5358-EC71-4669-874B-51EFF919D003}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Last_Pharaoh">
-      <UniqueIdentifier>{B2A1AA6F-C3C7-45ED-9B2F-AD5C64946C3E}</UniqueIdentifier>
+      <UniqueIdentifier>{1FAA1D86-9C59-4345-98F7-DD09698D40D3}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Last_Pharaoh\DamageTrap.cpp">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Last_Pharaoh\DamageTrap.h">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Last_Pharaoh\Last_Pharaoh.Build.cs">
       <Filter>Source\Last_Pharaoh</Filter>
     </None>
@@ -50,27 +56,11 @@
     <ClInclude Include="..\..\Source\Last_Pharaoh\Trap.h">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Last_Pharaoh\TrapManager.cpp">
-      <Filter>Source\Last_Pharaoh</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Last_Pharaoh\TrapManager.h">
-      <Filter>Source\Last_Pharaoh</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\Last_Pharaoh\VRCharacter.cpp">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Last_Pharaoh\VRCharacter.h">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Last_Pharaoh\DamageTrap.h">
-      <Filter>Source\Last_Pharaoh</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Last_Pharaoh\DamageTrap.cpp">
-      <Filter>Source\Last_Pharaoh</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
