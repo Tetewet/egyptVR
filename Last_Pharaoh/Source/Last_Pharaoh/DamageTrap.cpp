@@ -33,34 +33,24 @@ void ADamageTrap::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	SideAttack();
 }
 
 void ADamageTrap::NotifyActorBeginOverlap(AActor* OtherActor)
 {
 	//on overlap of the collision box, we will make damage to the player
 	auto player = Cast<AVRCharacter>(OtherActor);
-	if (player != nullptr)
+	if (player != nullptr && bIsTriggered)
 	{
-		//in case i need to move the character :
-		//OtherActor->GetComponentByClass(UCharacterMovementComponent::StaticClass());
+		//reset the player to the base location -> he's dead
 
 		//damage the player or kill him
-		player->Life -= Damage;
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Black, TEXT("YOU'VE BEEN HIT"));
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Black, TEXT("YOU'VE BEEN HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIT"));
 	}
 }
 
-void ADamageTrap::SideAttack()
+void ADamageTrap::TrapActivation()
 {
-	Direction = GetActorLocation();
-	Direction.AddBounded(FVector{0,1,0});
-	current++;
-	//move the trap towards the Y axis
-	GetRootComponent()->SetWorldLocation(Direction);
-	
-	if (current >= max)
-	{
-		Destroy();
-	}
+	bIsTriggered = true;
+	//start an animation
+
 }

@@ -58,10 +58,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADamageTrap); \
 
 
 #define Last_Pharaoh_Source_Last_Pharaoh_DamageTrap_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(ADamageTrap, Damage); } \
 	FORCEINLINE static uint32 __PPO__CollisionBox() { return STRUCT_OFFSET(ADamageTrap, CollisionBox); } \
-	FORCEINLINE static uint32 __PPO__Direction() { return STRUCT_OFFSET(ADamageTrap, Direction); } \
-	FORCEINLINE static uint32 __PPO__BaseMesh() { return STRUCT_OFFSET(ADamageTrap, BaseMesh); }
+	FORCEINLINE static uint32 __PPO__BaseMesh() { return STRUCT_OFFSET(ADamageTrap, BaseMesh); } \
+	FORCEINLINE static uint32 __PPO__bIsTriggered() { return STRUCT_OFFSET(ADamageTrap, bIsTriggered); }
 
 
 #define Last_Pharaoh_Source_Last_Pharaoh_DamageTrap_h_10_PROLOG

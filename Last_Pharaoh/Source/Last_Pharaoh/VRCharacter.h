@@ -13,9 +13,10 @@
 #include "Camera/PlayerCameraManager.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "TimerManager.h"
+#include "InputCoreTypes.h"
 #include "Engine.h"
 #include "NavigationSystem.h"
-//#include "MotionControllerComponent.h"
+#include "MotionControllerComponent.h"
 #include "Camera/CameraComponent.h"
 #include "VRCharacter.generated.h"
 
@@ -39,14 +40,15 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UPROPERTY(VisibleAnywhere)
-		float Life = 1;
-
 private:
 	UPROPERTY(VisibleAnywhere)
 		UCameraComponent* Camera;
 	UPROPERTY(VisibleAnywhere)
 		USceneComponent* VRRoot;
+	UPROPERTY(VisibleAnywhere)
+		UMotionControllerComponent* LeftMController;
+	UPROPERTY(VisibleAnywhere)
+		UMotionControllerComponent* RightMController;
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* TeleportMarker;
 	UPROPERTY(EditAnywhere)
@@ -57,6 +59,8 @@ private:
 		float MaxTeleport = 1000;
 	UPROPERTY(EditAnywhere)
 		FVector TeleportExtent;
+	UPROPERTY(EditAnywhere)
+		float TeleportMarkerAngle = -45;
 	UPROPERTY()
 		class UPostProcessComponent* PostProcessComponent;
 	UPROPERTY(EditAnywhere)

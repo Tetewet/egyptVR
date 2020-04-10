@@ -17,6 +17,14 @@ AVRCharacter::AVRCharacter()
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
 
+	//controllers
+	LeftMController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("LeftMController"));
+	LeftMController->SetupAttachment(VRRoot);
+	LeftMController->SetTrackingSource(EControllerHand::Left);
+	RightMController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("RightMController"));
+	RightMController->SetupAttachment(VRRoot);
+	RightMController->SetTrackingSource(EControllerHand::Right);
+
 	//teleport marker
 	TeleportMarker = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TeleportMarker"));
 	TeleportMarker->SetupAttachment(GetRootComponent());
@@ -24,7 +32,6 @@ AVRCharacter::AVRCharacter()
 	//post process component
 	PostProcessComponent = CreateDefaultSubobject<UPostProcessComponent>(TEXT("PostProcessComponent"));
 	PostProcessComponent->SetupAttachment(GetRootComponent());
-
 
 }
 
@@ -83,6 +90,7 @@ void AVRCharacter::MoveRight(float move)
 	//move the camera on the right or left depending on the float given (-1 or 1)
 	AddMovementInput(move * Camera->GetRightVector());
 	AddActorWorldTransform(FTransform(move * Camera->GetRightVector()));
+	//update the blinker for tunnel vision
 	UpdateBlinker();
 }
 
@@ -104,16 +112,21 @@ void AVRCharacter::CheckTeleport()
 	//this navmesh is to know whether or not we're raycasting on the ground or not
 	FNavLocation NavmeshLocation;
 	//start of raycast
-	FVector Start = Camera->GetComponentLocation();
+	FVector Start = RightMController->GetComponentLocation();
+	//create an arc so that player can point to teleport location easier
+	FVector Ark = RightMController->GetForwardVector();
+	Ark = Ark.RotateAngleAxis(TeleportMarkerAngle, RightMController->GetRightVector());
 	//max of raycast
-	FVector End = Start + Camera->GetForwardVector() * MaxTeleport;
+	FVector End = Start + Ark * MaxTeleport;
 	//raycast
 	bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility);
+
 	UNavigationSystemV1* NavmeshSystem = UNavigationSystemV1::GetNavigationSystem(GetWorld());
 	bool bOnNavMesh = NavmeshSystem->ProjectPointToNavigation(HitResult.Location, NavmeshLocation, TeleportExtent);
 
 	if (bHit && bOnNavMesh)
 	{
+		DrawDebugLine(GetWorld(), Start, End, FColor::Red);
 		TeleportMarker->SetWorldLocation(NavmeshLocation.Location);
 	}
 	TeleportMarker->SetVisibility(bHit);

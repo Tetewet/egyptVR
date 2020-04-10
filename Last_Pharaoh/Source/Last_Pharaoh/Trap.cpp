@@ -26,7 +26,7 @@ void ATrap::BeginPlay()
 	Location = GetActorLocation();
 	Rotation = GetActorRotation();
 	FTimerHandle TrapTimerHandle;
-	GetWorld()->GetTimerManager().SetTimer(TrapTimerHandle, this, &ATrap::TriggeredTrap, TrapTimer, true, 5); //TODO might need to change the 5 value here
+	//GetWorld()->GetTimerManager().SetTimer(TrapTimerHandle, this, &ATrap::TriggeredTrap, TrapTimer, true, 5); //TODO might need to change the 5 value here
 }
 
 // Called every frame
@@ -42,6 +42,6 @@ void ATrap::TriggeredTrap()
 	//spawn damage traps
 	if (DamageTrap != nullptr)
 	{
-		GetWorld()->SpawnActor(DamageTrap, &Location, &Rotation);
+		//GetWorld()->SpawnActor(DamageTrap, &Location, &Rotation);
 	}
 }

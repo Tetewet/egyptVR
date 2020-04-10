@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeLast_Pharaoh_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x4402BC0F,
-				0x372AB3C6,
+				0x6978A383,
+				0xDAE27CCB,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

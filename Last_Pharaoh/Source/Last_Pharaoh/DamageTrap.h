@@ -19,22 +19,17 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	UPROPERTY(EditAnywhere)
-		float Damage = 0.5f;
+
 	UPROPERTY(VisibleAnywhere)
 		UBoxComponent* CollisionBox;
-	UPROPERTY()
-		FVector Direction;
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* BaseMesh;
-
-private:
-	int max = 350;
-	int current;
+	UPROPERTY(VisibleAnywhere)
+		bool bIsTriggered;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
-	void SideAttack();
+	void TrapActivation();
 };

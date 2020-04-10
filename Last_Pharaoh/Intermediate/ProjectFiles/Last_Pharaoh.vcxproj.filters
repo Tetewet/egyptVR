@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Last_Pharaoh.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{24F2BA2B-6876-4B4B-B28C-6AC8CFE3B44F}</UniqueIdentifier>
+      <UniqueIdentifier>{86740C0A-1AC5-4157-B1BE-7AE84059CAC8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Last_Pharaoh.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0CEF5358-EC71-4669-874B-51EFF919D003}</UniqueIdentifier>
+      <UniqueIdentifier>{45E17814-26A5-46FC-B77A-CDF0255B3A53}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Last_Pharaoh">
-      <UniqueIdentifier>{1FAA1D86-9C59-4345-98F7-DD09698D40D3}</UniqueIdentifier>
+      <UniqueIdentifier>{D945302D-B55F-40BD-B3B2-1CA6C60ADD48}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Last_Pharaoh\DamageTrap.cpp">
       <Filter>Source\Last_Pharaoh</Filter>
@@ -62,5 +62,15 @@
     <ClInclude Include="..\..\Source\Last_Pharaoh\VRCharacter.h">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Last_Pharaoh\TriggerTrap.h">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Last_Pharaoh\TriggerTrap.cpp">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
