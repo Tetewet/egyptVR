@@ -21,9 +21,16 @@ AVRCharacter::AVRCharacter()
 	LeftMController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("LeftMController"));
 	LeftMController->SetupAttachment(VRRoot);
 	LeftMController->SetTrackingSource(EControllerHand::Left);
+	LeftMController->bDisplayDeviceModel = true;
 	RightMController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("RightMController"));
 	RightMController->SetupAttachment(VRRoot);
 	RightMController->SetTrackingSource(EControllerHand::Right);
+	RightMController->bDisplayDeviceModel = true;
+
+	//torchlight
+	TorchLight = CreateDefaultSubobject<USpotLightComponent>(TEXT("TorchLamp"));
+	TorchLight->AttachTo(RightMController);
+	TorchLight->bAutoActivate = false;
 
 	//teleport marker
 	TeleportMarker = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TeleportMarker"));
@@ -73,6 +80,8 @@ void AVRCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis(TEXT("Right"), this, &AVRCharacter::MoveRight);
 	//teleport actions
 	PlayerInputComponent->BindAction(TEXT("Teleport"), IE_Released, this, &AVRCharacter::BeginTeleport);
+	//torchlight actions
+	PlayerInputComponent->BindAction(TEXT("TorchLamp"), IE_Pressed, this, &AVRCharacter::TorchLamp);
 }
 //this is to move forward or backwards
 void AVRCharacter::MoveForward(float move)
@@ -98,7 +107,7 @@ void AVRCharacter::MoveRootToCamera()
 {
 	FVector offset = Camera->GetComponentLocation() - GetActorLocation();
 	//offset.z to 0 might come in conflict with avoiding traps in the future
-	//offset.Z = 0;
+	offset.Z = 0;
 
 	AddActorWorldOffset(offset);
 	VRRoot->AddWorldOffset(-offset);
@@ -180,4 +189,9 @@ void AVRCharacter::UpdateBlinker()
 		BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"), Radius);
 	}
 
+}
+
+void AVRCharacter::TorchLamp()
+{
+	TorchLight->Activate();
 }

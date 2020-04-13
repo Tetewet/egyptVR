@@ -62,6 +62,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVRCharacter); \
 	FORCEINLINE static uint32 __PPO__VRRoot() { return STRUCT_OFFSET(AVRCharacter, VRRoot); } \
 	FORCEINLINE static uint32 __PPO__LeftMController() { return STRUCT_OFFSET(AVRCharacter, LeftMController); } \
 	FORCEINLINE static uint32 __PPO__RightMController() { return STRUCT_OFFSET(AVRCharacter, RightMController); } \
+	FORCEINLINE static uint32 __PPO__TorchLight() { return STRUCT_OFFSET(AVRCharacter, TorchLight); } \
 	FORCEINLINE static uint32 __PPO__TeleportMarker() { return STRUCT_OFFSET(AVRCharacter, TeleportMarker); } \
 	FORCEINLINE static uint32 __PPO__TeleportFadeTimer() { return STRUCT_OFFSET(AVRCharacter, TeleportFadeTimer); } \
 	FORCEINLINE static uint32 __PPO__FadeTime() { return STRUCT_OFFSET(AVRCharacter, FadeTime); } \

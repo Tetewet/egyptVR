@@ -50,6 +50,8 @@ private:
 	UPROPERTY(VisibleAnywhere)
 		UMotionControllerComponent* RightMController;
 	UPROPERTY(VisibleAnywhere)
+		USpotLightComponent* TorchLight;
+	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* TeleportMarker;
 	UPROPERTY(EditAnywhere)
 		float TeleportFadeTimer = 0.8f;
@@ -81,4 +83,5 @@ private:
 	void Teleport();
 	void EndTeleport();
 	void UpdateBlinker();
+	void TorchLamp();
 };
