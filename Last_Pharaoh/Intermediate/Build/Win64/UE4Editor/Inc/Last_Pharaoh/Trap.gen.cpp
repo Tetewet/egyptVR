@@ -17,11 +17,11 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 	LAST_PHARAOH_API UClass* Z_Construct_UClass_ATrap();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Last_Pharaoh();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	LAST_PHARAOH_API UClass* Z_Construct_UClass_ADamageTrap_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
 	void ATrap::StaticRegisterNativesATrap()
 	{
@@ -39,7 +39,7 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageTrap_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_DamageTrap;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DamageTrap;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Rotation_MetaData[];
 #endif
@@ -53,9 +53,21 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TrapTimer;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpikeRight_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpikeRight;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpikeLeft_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpikeLeft;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseMesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BaseMesh;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CollisionBox_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CollisionBox;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -76,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 		{ "ModuleRelativePath", "Trap.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATrap_Statics::NewProp_DamageTrap = { "DamageTrap", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrap, DamageTrap), Z_Construct_UClass_ADamageTrap_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATrap_Statics::NewProp_DamageTrap_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::NewProp_DamageTrap_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATrap_Statics::NewProp_DamageTrap = { "DamageTrap", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrap, DamageTrap), Z_Construct_UClass_ADamageTrap_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATrap_Statics::NewProp_DamageTrap_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::NewProp_DamageTrap_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrap_Statics::NewProp_Rotation_MetaData[] = {
 		{ "Category", "Trap" },
@@ -99,20 +111,47 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATrap_Statics::NewProp_TrapTimer = { "TrapTimer", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrap, TrapTimer), METADATA_PARAMS(Z_Construct_UClass_ATrap_Statics::NewProp_TrapTimer_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::NewProp_TrapTimer_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrap_Statics::NewProp_SpikeRight_MetaData[] = {
+		{ "Category", "Trap" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Trap.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATrap_Statics::NewProp_SpikeRight = { "SpikeRight", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrap, SpikeRight), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATrap_Statics::NewProp_SpikeRight_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::NewProp_SpikeRight_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrap_Statics::NewProp_SpikeLeft_MetaData[] = {
+		{ "Category", "Trap" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Trap.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATrap_Statics::NewProp_SpikeLeft = { "SpikeLeft", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrap, SpikeLeft), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATrap_Statics::NewProp_SpikeLeft_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::NewProp_SpikeLeft_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrap_Statics::NewProp_BaseMesh_MetaData[] = {
+		{ "Category", "Trap" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Trap.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATrap_Statics::NewProp_BaseMesh = { "BaseMesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrap, BaseMesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATrap_Statics::NewProp_BaseMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::NewProp_BaseMesh_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrap_Statics::NewProp_CollisionBox_MetaData[] = {
 		{ "Category", "Trap" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Trap.h" },
 		{ "ToolTip", "i dont need a collision box, just a location from whom to spawn the damage traps" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATrap_Statics::NewProp_BaseMesh = { "BaseMesh", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrap, BaseMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATrap_Statics::NewProp_BaseMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::NewProp_BaseMesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATrap_Statics::NewProp_CollisionBox = { "CollisionBox", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrap, CollisionBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATrap_Statics::NewProp_CollisionBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::NewProp_CollisionBox_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATrap_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrap_Statics::NewProp_DamageTrap,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrap_Statics::NewProp_Rotation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrap_Statics::NewProp_Location,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrap_Statics::NewProp_TrapTimer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrap_Statics::NewProp_SpikeRight,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrap_Statics::NewProp_SpikeLeft,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrap_Statics::NewProp_BaseMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrap_Statics::NewProp_CollisionBox,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATrap_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATrap>::IsAbstract,
@@ -141,7 +180,7 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATrap, 570180136);
+	IMPLEMENT_CLASS(ATrap, 1508739686);
 	template<> LAST_PHARAOH_API UClass* StaticClass<ATrap>()
 	{
 		return ATrap::StaticClass();

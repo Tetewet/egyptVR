@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Last_Pharaoh.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{86740C0A-1AC5-4157-B1BE-7AE84059CAC8}</UniqueIdentifier>
+      <UniqueIdentifier>{F20E15D6-FCCE-446C-8A33-6098B21326C0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Last_Pharaoh.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{45E17814-26A5-46FC-B77A-CDF0255B3A53}</UniqueIdentifier>
+      <UniqueIdentifier>{640B8BEF-B5C5-4C24-B62E-D6C9D4077E35}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Last_Pharaoh">
-      <UniqueIdentifier>{D945302D-B55F-40BD-B3B2-1CA6C60ADD48}</UniqueIdentifier>
+      <UniqueIdentifier>{9ACB7099-BDD7-4803-B54C-E3B942275396}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Last_Pharaoh\DamageTrap.cpp">
       <Filter>Source\Last_Pharaoh</Filter>
@@ -56,21 +56,17 @@
     <ClInclude Include="..\..\Source\Last_Pharaoh\Trap.h">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Last_Pharaoh\TriggerTrap.cpp">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Last_Pharaoh\TriggerTrap.h">
+      <Filter>Source\Last_Pharaoh</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Last_Pharaoh\VRCharacter.cpp">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Last_Pharaoh\VRCharacter.h">
       <Filter>Source\Last_Pharaoh</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Last_Pharaoh\TriggerTrap.h">
-      <Filter>Source\Last_Pharaoh</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Last_Pharaoh\TriggerTrap.cpp">
-      <Filter>Source\Last_Pharaoh</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

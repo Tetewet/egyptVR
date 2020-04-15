@@ -71,6 +71,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVRCharacter); \
 	FORCEINLINE static uint32 __PPO__TeleportMarkerAngle() { return STRUCT_OFFSET(AVRCharacter, TeleportMarkerAngle); } \
 	FORCEINLINE static uint32 __PPO__PostProcessComponent() { return STRUCT_OFFSET(AVRCharacter, PostProcessComponent); } \
 	FORCEINLINE static uint32 __PPO__BlinkerMaterial() { return STRUCT_OFFSET(AVRCharacter, BlinkerMaterial); } \
+	FORCEINLINE static uint32 __PPO__Wrld() { return STRUCT_OFFSET(AVRCharacter, Wrld); } \
 	FORCEINLINE static uint32 __PPO__BlinkerMaterialInstance() { return STRUCT_OFFSET(AVRCharacter, BlinkerMaterialInstance); } \
 	FORCEINLINE static uint32 __PPO__BlinkerRadius() { return STRUCT_OFFSET(AVRCharacter, BlinkerRadius); }
 
