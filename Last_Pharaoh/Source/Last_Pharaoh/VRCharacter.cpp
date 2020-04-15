@@ -188,7 +188,6 @@ void AVRCharacter::UpdateBlinker()
 		float Radius = BlinkerRadius->GetFloatValue(Speed);
 		BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"), Radius);
 	}
-
 }
 
 void AVRCharacter::TorchLamp()
@@ -198,5 +197,5 @@ void AVRCharacter::TorchLamp()
 
 void AVRCharacter::DeathReset()
 {
-	Wrld->ServerTravel(FString("/Content/Maps/LastPharaoh_MainScene"));
+	UGameplayStatics::OpenLevel(this, FName("/Game/Maps/LastPharaoh_MainScene"));
 }
