@@ -41,6 +41,7 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	bool bIsActivatedOnce;
 
 public:
 	// Called every frame

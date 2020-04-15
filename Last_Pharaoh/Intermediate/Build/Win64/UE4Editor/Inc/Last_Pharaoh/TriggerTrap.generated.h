@@ -60,6 +60,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATriggerTrap); \
 #define Last_Pharaoh_Source_Last_Pharaoh_TriggerTrap_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CollisionBox() { return STRUCT_OFFSET(ATriggerTrap, CollisionBox); } \
 	FORCEINLINE static uint32 __PPO__BaseMesh() { return STRUCT_OFFSET(ATriggerTrap, BaseMesh); } \
+	FORCEINLINE static uint32 __PPO__ActivationAudio() { return STRUCT_OFFSET(ATriggerTrap, ActivationAudio); } \
+	FORCEINLINE static uint32 __PPO__DeactivationAudio() { return STRUCT_OFFSET(ATriggerTrap, DeactivationAudio); } \
 	FORCEINLINE static uint32 __PPO__bIsTrapActivator() { return STRUCT_OFFSET(ATriggerTrap, bIsTrapActivator); } \
 	FORCEINLINE static uint32 __PPO__DamageTrap() { return STRUCT_OFFSET(ATriggerTrap, DamageTrap); }
 

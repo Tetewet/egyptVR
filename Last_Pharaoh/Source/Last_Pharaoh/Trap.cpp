@@ -35,6 +35,8 @@ ATrap::ATrap()
 	//don't start the animations
 	SpikeLeft->AnimationData.bSavedPlaying = false;
 	SpikeRight->AnimationData.bSavedPlaying = false;
+
+	bIsActivatedOnce = false;
 }
 
 // Called when the game starts or when spawned
@@ -55,20 +57,19 @@ void ATrap::NotifyActorBeginOverlap(AActor* OtherActor)
 {
 	//making sure the actor overlapping is our vrcharacter
 	auto player = Cast<AVRCharacter>(OtherActor);
-	if (player != nullptr)
+	if (player != nullptr && DamageTrap->GetTrapActivated() && !bIsActivatedOnce)
 	{
 		TriggeredTrap();
+		bIsActivatedOnce = true;
 	}
 }
 
 //function that triggers the animation of the trap if the damage trap is not destroyed
 void ATrap::TriggeredTrap()
 {
-	//spawn damage traps
 	if (DamageTrap != nullptr)
 	{
-		auto trap = Cast<ADamageTrap>(DamageTrap);
-		if (trap->GetTrapActivated()
+		if (DamageTrap->GetTrapActivated()
 			&& SpikeLeft->AnimationData.AnimToPlay != nullptr
 			&& SpikeRight->AnimationData.AnimToPlay != nullptr)
 		{

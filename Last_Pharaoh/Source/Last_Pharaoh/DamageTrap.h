@@ -33,4 +33,5 @@ public:
 	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
 	void TrapActivation();
 	bool GetTrapActivated();
+	void DeactivateTrap();
 };

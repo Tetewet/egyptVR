@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeTriggerTrap() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Last_Pharaoh();
 	LAST_PHARAOH_API UClass* Z_Construct_UClass_ADamageTrap_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UAudioComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
@@ -43,6 +44,14 @@ void EmptyLinkFunctionForGeneratedCodeTriggerTrap() {}
 #endif
 		static void NewProp_bIsTrapActivator_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsTrapActivator;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DeactivationAudio_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DeactivationAudio;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActivationAudio_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActivationAudio;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseMesh_MetaData[];
 #endif
@@ -84,6 +93,22 @@ void EmptyLinkFunctionForGeneratedCodeTriggerTrap() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATriggerTrap_Statics::NewProp_bIsTrapActivator = { "bIsTrapActivator", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ATriggerTrap), &Z_Construct_UClass_ATriggerTrap_Statics::NewProp_bIsTrapActivator_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATriggerTrap_Statics::NewProp_bIsTrapActivator_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATriggerTrap_Statics::NewProp_bIsTrapActivator_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATriggerTrap_Statics::NewProp_DeactivationAudio_MetaData[] = {
+		{ "Category", "TriggerTrap" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "TriggerTrap.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATriggerTrap_Statics::NewProp_DeactivationAudio = { "DeactivationAudio", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATriggerTrap, DeactivationAudio), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATriggerTrap_Statics::NewProp_DeactivationAudio_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATriggerTrap_Statics::NewProp_DeactivationAudio_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATriggerTrap_Statics::NewProp_ActivationAudio_MetaData[] = {
+		{ "Category", "TriggerTrap" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "TriggerTrap.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATriggerTrap_Statics::NewProp_ActivationAudio = { "ActivationAudio", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATriggerTrap, ActivationAudio), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATriggerTrap_Statics::NewProp_ActivationAudio_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATriggerTrap_Statics::NewProp_ActivationAudio_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATriggerTrap_Statics::NewProp_BaseMesh_MetaData[] = {
 		{ "Category", "TriggerTrap" },
 		{ "EditInline", "true" },
@@ -102,6 +127,8 @@ void EmptyLinkFunctionForGeneratedCodeTriggerTrap() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATriggerTrap_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriggerTrap_Statics::NewProp_DamageTrap,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriggerTrap_Statics::NewProp_bIsTrapActivator,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriggerTrap_Statics::NewProp_DeactivationAudio,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriggerTrap_Statics::NewProp_ActivationAudio,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriggerTrap_Statics::NewProp_BaseMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriggerTrap_Statics::NewProp_CollisionBox,
 	};
@@ -132,7 +159,7 @@ void EmptyLinkFunctionForGeneratedCodeTriggerTrap() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATriggerTrap, 2543036355);
+	IMPLEMENT_CLASS(ATriggerTrap, 3145952117);
 	template<> LAST_PHARAOH_API UClass* StaticClass<ATriggerTrap>()
 	{
 		return ATriggerTrap::StaticClass();

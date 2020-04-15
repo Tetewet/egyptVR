@@ -1,0 +1,1627 @@
+﻿Log file open, 04/15/20 05:32:19
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Last_Pharaoh
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.415165
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.32.0
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 2600X Six-Core Processor           , GPU: Radeon RX 570 Series
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Unreal/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.15-09.32.20:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.15-09.32.20:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.15-09.32.20:749][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.15-09.32.20:757][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.15-09.32.20:757][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.15-09.32.20:758][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.15-09.32.20:758][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.15-09.32.20:758][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.15-09.32.20:768][  0]LogHAL: Display: Platform has ~ 16 GB [17080889344 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.04.15-09.32.20:768][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.15-09.32.20:768][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.15-09.32.20:768][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.15-09.32.20:769][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.15-09.32.20:769][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.15-09.32.20:770][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.15-09.32.20:770][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.15-09.32.20:770][  0]LogInit: Computer: DESKTOP-NKQ22UT
+[2020.04.15-09.32.20:770][  0]LogInit: User: Tetewet
+[2020.04.15-09.32.20:770][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.04.15-09.32.20:770][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.15-09.32.20:770][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.15-09.32.20:770][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.15-09.32.20:770][  0]LogMemory: Process Physical Memory: 101.10 MB used, 101.10 MB peak
+[2020.04.15-09.32.20:770][  0]LogMemory: Process Virtual Memory: 93.86 MB used, 93.86 MB peak
+[2020.04.15-09.32.20:770][  0]LogMemory: Physical Memory: 8608.39 MB used,  7681.22 MB free, 16289.61 MB total
+[2020.04.15-09.32.20:770][  0]LogMemory: Virtual Memory: 4676.43 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2020.04.15-09.32.20:795][  0]LogInit: Using OS detected language (en-US).
+[2020.04.15-09.32.20:795][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.15-09.32.20:796][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.15-09.32.20:988][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.15-09.32.21:040][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.15-09.32.21:040][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.15-09.32.21:404][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.04.15-09.32.21:404][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.15-09.32.21:464][  0]LogD3D11RHI:    0. 'Radeon RX 570 Series' (Feature Level 11_0)
+[2020.04.15-09.32.21:464][  0]LogD3D11RHI:       8171/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.04.15-09.32.21:468][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.15-09.32.21:468][  0]LogD3D11RHI:       0/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.15-09.32.21:469][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.15-09.32.21:485][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.15-09.32.21:485][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2020.04.15-09.32.21:485][  0]LogWindows: EnumDisplayDevices:
+[2020.04.15-09.32.21:485][  0]LogWindows:    0. 'Radeon RX 570 Series' (P:0 D:1)
+[2020.04.15-09.32.21:486][  0]LogWindows:    1. 'Radeon RX 570 Series' (P:1 D:1)
+[2020.04.15-09.32.21:486][  0]LogWindows:    2. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.15-09.32.21:487][  0]LogWindows:    3. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.15-09.32.21:487][  0]LogWindows:    4. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.15-09.32.21:487][  0]LogWindows:    5. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.15-09.32.21:488][  0]LogWindows:    6. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.15-09.32.21:488][  0]LogWindows:    7. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.15-09.32.21:489][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2020.04.15-09.32.21:489][  0]LogD3D11RHI:     Adapter Name: Radeon RX 570 Series
+[2020.04.15-09.32.21:489][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.4.1 (internal:26.20.15029.20013, unified:26.20.15029.20013)
+[2020.04.15-09.32.21:489][  0]LogD3D11RHI:      Driver Date: 4-1-2020
+[2020.04.15-09.32.21:489][  0]LogRHI: Texture pool is 5720 MB (70% of 8171 MB)
+[2020.04.15-09.32.21:568][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.15-09.32.21:572][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.15-09.32.21:572][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.15-09.32.21:572][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.15-09.32.21:579][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.04.15-09.32.21:977][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.04.15-09.32.21:995][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.04.15-09.32.22:012][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.04.15-09.32.22:028][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.04.15-09.32.22:045][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.04.15-09.32.22:061][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.04.15-09.32.22:077][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.15-09.32.22:093][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.04.15-09.32.22:100][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.15-09.32.22:195][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.15-09.32.22:196][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.04.15-09.32.22:196][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.04.15-09.32.22:198][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.04.15-09.32.22:257][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.04.15-09.32.22:257][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.04.15-09.32.22:286][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.04.15-09.32.22:286][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.04.15-09.32.22:300][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.04.15-09.32.22:315][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.15-09.32.22:331][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.04.15-09.32.22:347][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.04.15-09.32.22:399][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.04.15-09.32.22:399][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.04.15-09.32.22:400][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.15-09.32.22:409][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.15-09.32.22:460][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Intermediate/Shaders/WorkingDirectory/5388/).
+[2020.04.15-09.32.22:461][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tetewet/AppData/Local/Temp/UnrealShaderWorkingDir/B53707CB4144203354873E98F868FFFA/'.
+[2020.04.15-09.32.22:462][  0]LogXGEController: Cleaning working directory: C:/Users/Tetewet/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.15-09.32.22:463][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.15-09.32.22:463][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.15-09.32.22:463][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.15-09.32.23:042][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.15-09.32.23:098][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Tetewet/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.04.15-09.32.23:098][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tetewet/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.04.15-09.32.23:098][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/egyptVR/Last_Pharaoh/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.15-09.32.23:099][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.15-09.32.23:099][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/egyptVR/Last_Pharaoh/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.15-09.32.23:099][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.15-09.32.23:112][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.15-09.32.23:113][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.15-09.32.23:113][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.15-09.32.23:126][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tetewet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.15-09.32.23:126][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.15-09.32.23:126][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.15-09.32.23:148][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.15-09.32.23:149][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.15-09.32.23:150][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.15-09.32.23:252][  0]LogAssetRegistry: FAssetRegistry took 0.0374 seconds to start up
+[2020.04.15-09.32.23:636][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.15-09.32.23:765][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.15-09.32.23:765][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.15-09.32.23:765][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.15-09.32.23:765][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.15-09.32.23:765][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.15-09.32.23:779][  0]LogNetVersion: Last_Pharaoh 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3119618968)
+[2020.04.15-09.32.24:233][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.054898 seconds
+[2020.04.15-09.32.24:241][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.04.15-09.32.24:241][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.04.15-09.32.24:241][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.15-09.32.25:263][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.15-09.32.25:278][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.15-09.32.25:402][  0]SourceControl: Source control is disabled
+[2020.04.15-09.32.25:402][  0]SourceControl: Source control is disabled
+[2020.04.15-09.32.25:404][  0]SourceControl: Source control is disabled
+[2020.04.15-09.32.25:405][  0]SourceControl: Source control is disabled
+[2020.04.15-09.32.25:510][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.15-09.32.25:730][  0]LogOcInput: OculusInput pre-init called
+[2020.04.15-09.32.26:570][  0]LogEngine: Initializing Engine...
+[2020.04.15-09.32.26:641][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.04.15-09.32.26:642][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.15-09.32.26:860][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/Last_Pharaoh.TrapManager'
+[2020.04.15-09.32.26:860][  0]LogEngine: Error: Engine config value GameSingletonClassName '/Script/Last_Pharaoh.TrapManager' is not a valid class name.
+[2020.04.15-09.32.26:862][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.15-09.32.26:873][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.15-09.32.26:935][  0]LogInit: XAudio2 using 'Speakers (2- Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.15-09.32.26:978][  0]LogInit: FAudioDevice initialized.
+[2020.04.15-09.32.26:978][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.15-09.32.27:039][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Tetewet/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.04.15-09.32.27:040][  0]LogInit: Texture streaming: Enabled
+[2020.04.15-09.32.27:060][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.15-09.32.27:060][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={549467B8-4470-01A5-0E91-2F854F8937CA}
+[2020.04.15-09.32.27:082][  0]LogInit: Transaction tracking system initialized
+[2020.04.15-09.32.27:106][  0]BlueprintLog: New page: Editor Load
+[2020.04.15-09.32.27:208][  0]LocalizationService: Localization service is disabled
+[2020.04.15-09.32.27:533][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/egyptVR/Last_Pharaoh/Content/' took 0.01s
+[2020.04.15-09.32.27:533][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.15-09.32.27:533][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.15-09.32.27:749][  0]SourceControl: Source control is disabled
+[2020.04.15-09.32.27:749][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Scenes/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.15-09.32.27:750][  0]LightingResults: New page: Lighting Build
+[2020.04.15-09.32.27:752][  0]MapCheck: New page: Map Check
+[2020.04.15-09.32.27:752][  0]LightingResults: New page: Lighting Build
+[2020.04.15-09.32.27:768][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.04.15-09.32.27:862][  0]LogProperty: Warning: Serialized Class /Script/Engine.BlueprintGeneratedClass for a property of Class /Script/Last_Pharaoh.DamageTrap. Reference will be nullptred.
+    Property = ObjectProperty /Script/Last_Pharaoh.Trap:DamageTrap
+    Item = BlueprintGeneratedClass /Game/Blueprints/BP_DamageTrap.BP_DamageTrap_C
+[2020.04.15-09.32.28:069][  0]LogAIModule: Creating AISystem for world TestMap
+[2020.04.15-09.32.28:077][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.15-09.32.28:119][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.04.15-09.32.28:119][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.15-09.32.28:120][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.138ms to complete.
+[2020.04.15-09.32.28:120][  0]LogFileHelpers: Loading map 'TestMap' took 0.371
+[2020.04.15-09.32.28:261][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-09.32.28:273][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-09.32.28:282][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-09.32.28:291][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-09.32.28:298][  0]LogCollectionManager: Loaded 0 collections in 0.001640 seconds
+[2020.04.15-09.32.28:337][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Collections/' took 0.01s
+[2020.04.15-09.32.28:337][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/egyptVR/Last_Pharaoh/Content/Developers/Tetewet/Collections/' took 0.01s
+[2020.04.15-09.32.28:337][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/egyptVR/Last_Pharaoh/Content/Collections/' took 0.01s
+[2020.04.15-09.32.28:337][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.04.15-09.32.28:347][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2737 classes and 661 folders.
+[2020.04.15-09.32.28:355][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.15-09.32.28:357][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:358][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:358][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:359][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:360][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:360][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:361][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:362][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:362][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:363][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:364][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:365][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:366][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:367][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:368][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:368][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:369][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:370][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:370][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:371][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:372][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:373][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:373][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:374][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:375][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:375][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.15-09.32.28:466][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.15-09.32.28:471][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.04.15-09.32.28:549][  0]LogSlate: Took 0.000364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.15-09.32.28:552][  0]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.15-09.32.28:558][  0]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.15-09.32.28:621][  0]LogRenderer: Reallocating scene render targets to support 1208x560 Format 10 NumSamples 1 (Frame:1).
+[2020.04.15-09.32.28:757][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.04.15-09.32.28:757][  0]LogLoad: (Engine Initialization) Total time: 11.03 seconds
+[2020.04.15-09.32.28:757][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.15-09.32.28:794][  0]LogAssetRegistry: Asset discovery search completed in 5.5642 seconds
+[2020.04.15-09.32.28:796][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.04.15-09.32.28:796][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
+[2020.04.15-09.32.28:798][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.15-09.32.28:822][  0]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.15-09.38.18:904][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.15-09.38.21:665][792]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 64X64)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 64X64)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: SkyOcclusion0_10 (AutoDXT, 1024X512)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: SkyOcclusion0_12 (AutoDXT, 1024X512)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: SkyOcclusion0_13 (AutoDXT, 64X32)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: SkyOcclusion0_11 (AutoDXT, 1024X512)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 1024X512)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2020.04.15-09.38.22:443][792]LogTexture: Display: Building textures: SkyOcclusion0_9 (AutoDXT, 1024X512)
+[2020.04.15-09.38.22:444][792]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2020.04.15-09.38.22:444][792]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2020.04.15-09.38.22:444][792]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2020.04.15-09.38.22:444][792]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 1024X512)
+[2020.04.15-09.38.22:444][792]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 1024X512)
+[2020.04.15-09.38.22:444][792]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 1024X512)
+[2020.04.15-09.38.22:450][792]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.15-09.38.22:490][792]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene
+[2020.04.15-09.38.22:542][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.04.15-09.38.22:545][792]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Maps/LastPharaoh_MainScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.15-09.38.22:545][792]LightingResults: New page: Lighting Build
+[2020.04.15-09.38.22:546][792]LoadErrors: New page: Loading map: LastPharaoh_MainScene.umap
+[2020.04.15-09.38.22:548][792]MapCheck: New page: Map Check
+[2020.04.15-09.38.22:548][792]LightingResults: New page: Lighting Build
+[2020.04.15-09.38.22:583][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.04.15-09.38.22:745][792]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.15-09.38.22:798][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.04.15-09.38.22:815][792]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.15-09.38.22:816][792]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.203ms to complete.
+[2020.04.15-09.38.22:816][792]LogFileHelpers: Loading map 'LastPharaoh_MainScene' took 0.272
+[2020.04.15-09.38.33:978][108]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-09.38.34:919][215]MapCheck: New page: Map Check
+[2020.04.15-09.38.34:929][215]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-09.38.34:934][215]LightingResults: New page: Lighting Build - Apr 15, 2020, 1:38:34 AM
+[2020.04.15-09.38.34:977][215]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.04.15-09.38.35:043][215]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.04.15-09.38.35:057][215]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.04.15-09.38.35:566][215]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.04.15-09.38.35:566][215]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5388
+[2020.04.15-09.38.38:053][215]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.04.15-09.38.38:053][215]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.04.15-09.38.38:053][215]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.04.15-09.38.38:053][215]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.04.15-09.38.38:053][215]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.04.15-09.38.38:053][215]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.04.15-09.38.38:282][215]LogEditorBuildUtils: Build time 0:03
+[2020.04.15-09.38.38:395][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.04.15-09.38.49:527][192]LightingResults: Warning: door Object has overlapping UVs.
+[2020.04.15-09.38.49:527][192]LightingResults: door Lightmap UV are overlapping by 5.3%. Please adjust content - Enable Error Coloring to visualize.
+[2020.04.15-09.38.49:567][193]Job is a success!
+[2020.04.15-09.38.49:628][195]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-09.38.49:782][195]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.044s
+[2020.04.15-09.38.49:782][195]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.04.15-09.38.49:782][195]LogVolumetricLightmapImport:      BrickData 400x5x5 = 0.4Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2020.04.15-09.38.49:782][195]LogVolumetricLightmapImport:      Bricks at Level
+[2020.04.15-09.38.49:782][195]LogVolumetricLightmapImport:          0: 1.3% covering 100.0% of volume
+[2020.04.15-09.38.49:782][195]LogVolumetricLightmapImport:          1: 5.0% covering 6.3% of volume
+[2020.04.15-09.38.49:782][195]LogVolumetricLightmapImport:          2: 93.8% covering 1.8% of volume
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion1_8 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion1_9 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion1_10 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion1_11 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion1_12 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:230][195]LogTexture: Display: Building textures: SkyOcclusion1_13 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: SkyOcclusion0_14 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: SkyOcclusion0_15 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: SkyOcclusion0_16 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: SkyOcclusion0_17 (AutoDXT, 1024X512)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 1024X1024)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 1024X1024)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: SkyOcclusion0_18 (AutoDXT, 64X32)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 64X64)
+[2020.04.15-09.38.51:231][195]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 64X64)
+[2020.04.15-09.38.51:277][195]Lightmass on DESKTOP-NKQ22UT: 12.3 sec total, 140 ms importing, 46 ms setup, 1.81 sec photons, 10.2 sec processing, 0 ms extra exporting [708/708 mappings]. Threads: 1:52 min total, 1:22 min processing.
+[2020.04.15-09.38.51:293][195]LogStaticLightingSystem: LastPharaoh_MainScene_BuiltData storing lightmap data for 708 meshes in 18 LightmapResourceClusters (39.3 Meshes per cluster).
+[2020.04.15-09.38.51:297][195]LogMaterial: Warning: Material /Game/Models/Materials/08_-_Default.08_-_Default needed to have new flag set bUsedWithStaticLighting !
+[2020.04.15-09.38.51:312][195]LogMaterial: Display: Missing cached shader map for material 08_-_Default, compiling. 
+[2020.04.15-09.38.51:402][195]LogMaterial: Warning: Material /Game/Models/Materials/09_-_Default.09_-_Default needed to have new flag set bUsedWithStaticLighting !
+[2020.04.15-09.38.51:404][195]LogMaterial: Display: Missing cached shader map for material 09_-_Default, compiling. 
+[2020.04.15-09.38.51:425][195]LogMaterial: Warning: Material /Game/Models/Materials/09_-_Default_Slot__5.09_-_Default_Slot__5 needed to have new flag set bUsedWithStaticLighting !
+[2020.04.15-09.38.51:427][195]LogMaterial: Display: Missing cached shader map for material 09_-_Default_Slot__5, compiling. 
+[2020.04.15-09.38.51:450][195]LogMaterial: Warning: Material /Game/Models/Materials/09_-_Default_Slot__4.09_-_Default_Slot__4 needed to have new flag set bUsedWithStaticLighting !
+[2020.04.15-09.38.51:453][195]LogMaterial: Display: Missing cached shader map for material 09_-_Default_Slot__4, compiling. 
+[2020.04.15-09.38.51:481][195]LogMaterial: Warning: Material /Game/Models/Materials/09_-_Default_Slot__6.09_-_Default_Slot__6 needed to have new flag set bUsedWithStaticLighting !
+[2020.04.15-09.38.51:485][195]LogMaterial: Display: Missing cached shader map for material 09_-_Default_Slot__6, compiling. 
+[2020.04.15-09.38.51:511][195]LogMaterial: Warning: Material /Game/Models/Materials/09_-_Default_Slot__3.09_-_Default_Slot__3 needed to have new flag set bUsedWithStaticLighting !
+[2020.04.15-09.38.51:514][195]LogMaterial: Display: Missing cached shader map for material 09_-_Default_Slot__3, compiling. 
+[2020.04.15-09.38.51:543][195]LogMaterial: Warning: Material /Game/Models/Materials/09_-_Default_Slot__7.09_-_Default_Slot__7 needed to have new flag set bUsedWithStaticLighting !
+[2020.04.15-09.38.51:546][195]LogMaterial: Display: Missing cached shader map for material 09_-_Default_Slot__7, compiling. 
+[2020.04.15-09.38.51:608][195]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.04.15-09.38.51:616][195]LogStaticLightingSystem: Illumination: 16.6 sec (1.08 sec encoding lightmaps, 0 ms encoding shadowmaps)
+[2020.04.15-09.38.51:616][195]LogStaticLightingSystem: Lightmap texture memory:  45.3 MB (45.3 MB streaming, 0.0 MB non-streaming), 36 textures
+[2020.04.15-09.38.51:616][195]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.04.15-09.38.52:074][195]DumpUnbuiltLightIteractions
+[2020.04.15-09.38.52:074][195]Lights with unbuilt interactions: 0
+[2020.04.15-09.38.52:074][195]
+[2020.04.15-09.38.52:074][195]Primitives with unbuilt interactions: 0
+[2020.04.15-09.39.01:382][196]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.04.15-09.39.01:382][196]MapCheck: New page: LastPharaoh_MainScene - Apr 15, 2020, 1:39:01 AM
+[2020.04.15-09.39.01:385][196]MapCheck: Warning: BP_DamageTrap_2 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-09.39.01:385][196]MapCheck: Warning: BP_DamageTrap2_5 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-09.39.01:385][196]MapCheck: Warning: BP_DamageTrap3_8 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-09.39.01:385][196]MapCheck: Warning: BP_DamageTrap4_11 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-09.39.01:385][196]MapCheck: Warning: door_26 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-09.39.01:386][196]MapCheck: Map check complete: 0 Error(s), 5 Warning(s), took 3.85ms to complete.
+[2020.04.15-09.39.03:362][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.15-09.39.03:443][430]LogSlate: Window 'Message Log' being destroyed
+[2020.04.15-09.39.04:736][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.15-09.39.04:867][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.04.15-09.39.06:244][596]LogSlate: Window 'Save Content' being destroyed
+[2020.04.15-09.39.06:259][596]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-09.39.06:302][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.04.15-09.39.07:016][596]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/LastPharaoh_MainScene3189313F45AEC6C1BDDB6085B09E0EFB.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Maps/LastPharaoh_MainScene.umap'
+[2020.04.15-09.39.07:039][596]LogFileHelpers: Saving map 'LastPharaoh_MainScene' took 0.772
+[2020.04.15-09.39.07:042][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LastPharaoh_MainScene_BuiltData" FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Maps/LastPharaoh_MainScene_BuiltData.uasset" SILENT=true
+[2020.04.15-09.39.07:738][596]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/LastPharaoh_MainScene_BuiltDataB16FDAE449DC86ACFA4BDFB36C50DD78.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Maps/LastPharaoh_MainScene_BuiltData.uasset'
+[2020.04.15-09.39.07:783][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/08_-_Default" FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/08_-_Default.uasset" SILENT=true
+[2020.04.15-09.39.07:802][596]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/08_-_Default24B730834405CDE62AB7BE801901136B.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/08_-_Default.uasset'
+[2020.04.15-09.39.07:821][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/09_-_Default" FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/09_-_Default.uasset" SILENT=true
+[2020.04.15-09.39.07:841][596]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/09_-_DefaultE16FE5A54D5A2026E65CF0A7B07714D4.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/09_-_Default.uasset'
+[2020.04.15-09.39.07:860][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/09_-_Default_Slot__3" FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/09_-_Default_Slot__3.uasset" SILENT=true
+[2020.04.15-09.39.07:878][596]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/09_-_Default_Slot__3920906E74D6E35540CA5699880E91D26.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/09_-_Default_Slot__3.uasset'
+[2020.04.15-09.39.07:897][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/09_-_Default_Slot__4" FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/09_-_Default_Slot__4.uasset" SILENT=true
+[2020.04.15-09.39.07:916][596]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/09_-_Default_Slot__4280B07474467D0F051F98CACF3F1E173.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/09_-_Default_Slot__4.uasset'
+[2020.04.15-09.39.07:936][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/09_-_Default_Slot__5" FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/09_-_Default_Slot__5.uasset" SILENT=true
+[2020.04.15-09.39.07:954][596]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/09_-_Default_Slot__5D7A9EE344BDD7672972EFBB6735680E1.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/09_-_Default_Slot__5.uasset'
+[2020.04.15-09.39.07:974][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/09_-_Default_Slot__6" FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/09_-_Default_Slot__6.uasset" SILENT=true
+[2020.04.15-09.39.07:993][596]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/09_-_Default_Slot__694371DDD4EE2BA6FAA7321B86376E66A.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/09_-_Default_Slot__6.uasset'
+[2020.04.15-09.39.08:013][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Materials/09_-_Default_Slot__7" FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/09_-_Default_Slot__7.uasset" SILENT=true
+[2020.04.15-09.39.08:031][596]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/09_-_Default_Slot__722D43CFC4325E293A0A4E5A68078A59B.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Models/Materials/09_-_Default_Slot__7.uasset'
+[2020.04.15-09.41.18:436][229]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.04.15-09.41.18:470][229]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-09.41.31:855][353]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.15-09.41.31:855][353]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.15-09.41.37:992][941]LogAssetEditorManager: Opening Asset editor for Class /Script/Last_Pharaoh.Trap
+[2020.04.15-09.55.27:994][544]Candidate modules for hot reload:
+[2020.04.15-09.55.27:994][544]  Last_Pharaoh
+[2020.04.15-09.55.27:994][544]Launching UnrealBuildTool... [D:/Unreal/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Last_Pharaoh,3626 Win64 Development -TargetType=Editor -Project="D:/Unreal Projects/egyptVR/Last_Pharaoh/Last_Pharaoh.uproject" "D:/Unreal Projects/egyptVR/Last_Pharaoh/Last_Pharaoh.uproject"  -IgnoreJunk]
+[2020.04.15-09.55.28:003][544]Warning: Starting HotReload took  0.2s.
+[2020.04.15-10.08.33:414][884]CompilerResultsLog: New page: Compilation - Apr 15, 2020, 2:08:33 AM
+[2020.04.15-10.08.33:426][884]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\egyptVR).
+[2020.04.15-10.08.33:426][884]CompilerResultsLog: Creating makefile for Last_PharaohEditor (ini files are newer than makefile)
+[2020.04.15-10.08.33:426][884]CompilerResultsLog: Parsing headers for Last_PharaohEditor
+[2020.04.15-10.08.33:426][884]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\egyptVR\Last_Pharaoh\Last_Pharaoh.uproject" "D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\Last_PharaohEditor\Development\Last_PharaohEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.15-10.08.33:427][884]CompilerResultsLog: Reflection code generated for Last_PharaohEditor in 11.367639 seconds
+[2020.04.15-10.08.33:427][884]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.15-10.08.33:427][884]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.04.15-10.08.33:427][884]CompilerResultsLog:   [1/4] VRCharacter.cpp
+[2020.04.15-10.08.33:427][884]CompilerResultsLog:   D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\VRCharacter.cpp(32): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.04.15-10.08.33:427][884]CompilerResultsLog:   [2/4] UE4Editor-Last_Pharaoh-3626.lib
+[2020.04.15-10.08.33:427][884]CompilerResultsLog:      Creating library D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-3626.lib and object D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-3626.exp
+[2020.04.15-10.08.33:427][884]CompilerResultsLog:   [3/4] UE4Editor-Last_Pharaoh-3626.dll
+[2020.04.15-10.08.33:427][884]CompilerResultsLog:      Creating library D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-3626.suppressed.lib and object D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-3626.suppressed.exp
+[2020.04.15-10.08.33:427][884]CompilerResultsLog:   [4/4] Last_PharaohEditor.target
+[2020.04.15-10.08.33:427][884]CompilerResultsLog: Total time in Parallel executor: 771.00 seconds
+[2020.04.15-10.08.33:427][884]CompilerResultsLog: Total execution time: 785.00 seconds
+[2020.04.15-10.08.33:427][884]LogMainFrame: MainFrame: Module compiling took 785.482 seconds
+[2020.04.15-10.08.33:506][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.04.15-10.08.34:077][884]LogContentBrowser: Native class hierarchy updated for 'Last_Pharaoh' in 0.0009 seconds. Added 5 classes and 2 folders.
+[2020.04.15-10.08.34:080][884]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.15-10.08.34:285][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.04.15-10.08.34:316][884]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2738 classes and 663 folders.
+[2020.04.15-10.08.34:339][884]Display: HotReload took 786.5s.
+[2020.04.15-10.13.02:049][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-10.13.51:097][252]Candidate modules for hot reload:
+[2020.04.15-10.13.51:097][252]  Last_Pharaoh
+[2020.04.15-10.13.51:097][252]Launching UnrealBuildTool... [D:/Unreal/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Last_Pharaoh,4768 Win64 Development -TargetType=Editor -Project="D:/Unreal Projects/egyptVR/Last_Pharaoh/Last_Pharaoh.uproject" "D:/Unreal Projects/egyptVR/Last_Pharaoh/Last_Pharaoh.uproject"  -IgnoreJunk]
+[2020.04.15-10.13.51:105][252]Warning: Starting HotReload took  0.0s.
+[2020.04.15-10.14.12:113][470]CompilerResultsLog: New page: Compilation - Apr 15, 2020, 2:14:12 AM
+[2020.04.15-10.14.12:113][470]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\egyptVR).
+[2020.04.15-10.14.12:113][470]CompilerResultsLog: Parsing headers for Last_PharaohEditor
+[2020.04.15-10.14.12:113][470]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\egyptVR\Last_Pharaoh\Last_Pharaoh.uproject" "D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\Last_PharaohEditor\Development\Last_PharaohEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.15-10.14.12:113][470]CompilerResultsLog: Reflection code generated for Last_PharaohEditor in 7.1034767 seconds
+[2020.04.15-10.14.12:113][470]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.15-10.14.12:113][470]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.04.15-10.14.12:113][470]CompilerResultsLog:   [1/4] VRCharacter.cpp
+[2020.04.15-10.14.12:113][470]CompilerResultsLog:   D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\VRCharacter.cpp(32): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.04.15-10.14.12:113][470]CompilerResultsLog:   [2/4] UE4Editor-Last_Pharaoh-4768.lib
+[2020.04.15-10.14.12:113][470]CompilerResultsLog:      Creating library D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-4768.lib and object D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-4768.exp
+[2020.04.15-10.14.12:113][470]CompilerResultsLog:   [3/4] UE4Editor-Last_Pharaoh-4768.dll
+[2020.04.15-10.14.12:113][470]CompilerResultsLog:      Creating library D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-4768.suppressed.lib and object D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-4768.suppressed.exp
+[2020.04.15-10.14.12:113][470]CompilerResultsLog:   [4/4] Last_PharaohEditor.target
+[2020.04.15-10.14.12:113][470]CompilerResultsLog: Total time in Parallel executor: 12.63 seconds
+[2020.04.15-10.14.12:113][470]CompilerResultsLog: Total execution time: 20.75 seconds
+[2020.04.15-10.14.12:113][470]LogMainFrame: MainFrame: Module compiling took 21.021 seconds
+[2020.04.15-10.14.12:144][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.04.15-10.14.12:694][470]LogContentBrowser: Native class hierarchy updated for 'Last_Pharaoh' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2020.04.15-10.14.12:698][470]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.15-10.14.12:757][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.04.15-10.14.12:771][470]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2738 classes and 663 folders.
+[2020.04.15-10.14.12:771][470]Display: HotReload took 21.7s.
+[2020.04.15-10.14.17:176][596]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.15-10.14.17:221][596]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene' with GeneratedClass '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene_C' with ClassGeneratedBy '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene'
+[2020.04.15-10.14.17:273][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.15-10.14.17:273][596]PIE: New page: PIE session: LastPharaoh_MainScene (Apr 15, 2020, 2:14:17 AM)
+[2020.04.15-10.14.17:347][596]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LastPharaoh_MainScene
+[2020.04.15-10.14.17:478][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.129828s)
+[2020.04.15-10.14.17:483][596]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.15-10.14.17:497][596]LogPlayLevel: PIE: World Init took: (0.019541s)
+[2020.04.15-10.14.17:497][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene to /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene (0.150430s)
+[2020.04.15-10.14.17:529][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.04.15-10.14.17:594][596]LogInit: XAudio2 using 'Speakers (2- Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.15-10.14.17:628][596]LogInit: FAudioDevice initialized.
+[2020.04.15-10.14.17:664][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-10.14.17:744][596]LogLoad: Game class is 'VRGameMode_C'
+[2020.04.15-10.14.17:818][596]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene up for play (max tick rate 0) at 2020.04.15-06.14.17
+[2020.04.15-10.14.17:867][596]LogWorld: Bringing up level for play took: 0.065714
+[2020.04.15-10.14.18:023][596]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.04.15-10.14.18:024][596]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.15-10.14.18:024][596]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.15-10.14.18:132][596]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_LastPharaoh_MainScene 0.041
+[2020.04.15-10.14.18:132][596]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene' with GeneratedClass '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene_C' with ClassGeneratedBy '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene'
+[2020.04.15-10.14.18:300][597]LogRenderer: Reallocating scene render targets to support 1272x688 Format 10 NumSamples 1 (Frame:1).
+[2020.04.15-10.14.21:846][ 13]LogNet: Browse: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.14.21:851][ 13]LogLoad: LoadMap: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.14.21:915][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.04.15-10.14.21:916][ 13]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LastPharaoh_MainScene
+[2020.04.15-10.14.21:952][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036195s)
+[2020.04.15-10.14.21:953][ 13]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.15-10.14.21:953][ 13]LogPlayLevel: PIE: World Init took: (0.001241s)
+[2020.04.15-10.14.21:953][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene to /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene (0.037667s)
+[2020.04.15-10.14.21:953][ 13]LogLoad: Game class is 'VRGameMode_C'
+[2020.04.15-10.14.21:969][ 13]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene up for play (max tick rate 0) at 2020.04.15-06.14.21
+[2020.04.15-10.14.21:970][ 13]LogWorld: Bringing up level for play took: 0.015684
+[2020.04.15-10.14.21:970][ 13]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.15-10.14.21:970][ 13]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.15-10.14.21:979][ 13]LogLoad: Took 0.127703 seconds to LoadMap(/Game/Maps/UEDPIE_0_LastPharaoh_MainScene)
+[2020.04.15-10.14.25:139][388]LogNet: Browse: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.14.25:140][388]LogLoad: LoadMap: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.14.25:182][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.04.15-10.14.25:182][388]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LastPharaoh_MainScene
+[2020.04.15-10.14.25:221][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038913s)
+[2020.04.15-10.14.25:221][388]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.15-10.14.25:221][388]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2020.04.15-10.14.25:222][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene to /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene (0.039759s)
+[2020.04.15-10.14.25:222][388]LogLoad: Game class is 'VRGameMode_C'
+[2020.04.15-10.14.25:236][388]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene up for play (max tick rate 0) at 2020.04.15-06.14.25
+[2020.04.15-10.14.25:237][388]LogWorld: Bringing up level for play took: 0.015178
+[2020.04.15-10.14.25:238][388]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.15-10.14.25:238][388]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.15-10.14.25:239][388]LogLoad: Took 0.099546 seconds to LoadMap(/Game/Maps/UEDPIE_0_LastPharaoh_MainScene)
+[2020.04.15-10.14.27:036][601]LogNet: Browse: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.14.27:037][601]LogLoad: LoadMap: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.14.27:077][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.04.15-10.14.27:077][601]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LastPharaoh_MainScene
+[2020.04.15-10.14.27:113][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036094s)
+[2020.04.15-10.14.27:113][601]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.15-10.14.27:114][601]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2020.04.15-10.14.27:114][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene to /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene (0.036851s)
+[2020.04.15-10.14.27:114][601]LogLoad: Game class is 'VRGameMode_C'
+[2020.04.15-10.14.27:128][601]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene up for play (max tick rate 0) at 2020.04.15-06.14.27
+[2020.04.15-10.14.27:129][601]LogWorld: Bringing up level for play took: 0.014274
+[2020.04.15-10.14.27:129][601]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.15-10.14.27:129][601]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.15-10.14.27:130][601]LogLoad: Took 0.093234 seconds to LoadMap(/Game/Maps/UEDPIE_0_LastPharaoh_MainScene)
+[2020.04.15-10.14.29:052][826]LogNet: Browse: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.14.29:053][826]LogLoad: LoadMap: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.14.29:092][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.04.15-10.14.29:092][826]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LastPharaoh_MainScene
+[2020.04.15-10.14.29:128][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036329s)
+[2020.04.15-10.14.29:129][826]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.15-10.14.29:129][826]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2020.04.15-10.14.29:129][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene to /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene (0.037088s)
+[2020.04.15-10.14.29:129][826]LogLoad: Game class is 'VRGameMode_C'
+[2020.04.15-10.14.29:143][826]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene up for play (max tick rate 0) at 2020.04.15-06.14.29
+[2020.04.15-10.14.29:144][826]LogWorld: Bringing up level for play took: 0.014206
+[2020.04.15-10.14.29:145][826]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.15-10.14.29:145][826]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.15-10.14.29:146][826]LogLoad: Took 0.092662 seconds to LoadMap(/Game/Maps/UEDPIE_0_LastPharaoh_MainScene)
+[2020.04.15-10.14.30:722][  8]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene' with GeneratedClass '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene_C' with ClassGeneratedBy '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene'
+[2020.04.15-10.14.30:730][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-10.14.30:739][  8]LogSlate: Window 'Last_Pharaoh Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.15-10.14.30:802][  8]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.15-10.14.30:803][  8]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene' with GeneratedClass '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene_C' with ClassGeneratedBy '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene'
+[2020.04.15-10.14.30:934][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.04.15-10.14.30:973][  9]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.04.15-10.16.11:864][605]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.15-10.16.11:873][605]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene' with GeneratedClass '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene_C' with ClassGeneratedBy '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene'
+[2020.04.15-10.16.11:874][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.15-10.16.11:874][605]PIE: New page: PIE session: LastPharaoh_MainScene (Apr 15, 2020, 2:16:11 AM)
+[2020.04.15-10.16.11:874][605]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LastPharaoh_MainScene
+[2020.04.15-10.16.11:916][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042660s)
+[2020.04.15-10.16.11:917][605]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.15-10.16.11:917][605]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2020.04.15-10.16.11:917][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene to /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene (0.043599s)
+[2020.04.15-10.16.11:947][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.04.15-10.16.12:006][605]LogInit: XAudio2 using 'Speakers (2- Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.15-10.16.12:044][605]LogInit: FAudioDevice initialized.
+[2020.04.15-10.16.12:060][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-10.16.12:096][605]LogLoad: Game class is 'VRGameMode_C'
+[2020.04.15-10.16.12:112][605]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene up for play (max tick rate 0) at 2020.04.15-06.16.12
+[2020.04.15-10.16.12:113][605]LogWorld: Bringing up level for play took: 0.016091
+[2020.04.15-10.16.12:126][605]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.15-10.16.12:126][605]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.15-10.16.12:129][605]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_LastPharaoh_MainScene 0.039
+[2020.04.15-10.16.12:130][605]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene' with GeneratedClass '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene_C' with ClassGeneratedBy '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene'
+[2020.04.15-10.16.23:999][ 25]LogNet: Browse: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.16.24:000][ 25]LogLoad: LoadMap: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.16.24:040][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.04.15-10.16.24:040][ 25]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LastPharaoh_MainScene
+[2020.04.15-10.16.24:077][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036698s)
+[2020.04.15-10.16.24:077][ 25]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.15-10.16.24:077][ 25]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2020.04.15-10.16.24:077][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene to /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene (0.037447s)
+[2020.04.15-10.16.24:077][ 25]LogLoad: Game class is 'VRGameMode_C'
+[2020.04.15-10.16.24:091][ 25]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene up for play (max tick rate 0) at 2020.04.15-06.16.24
+[2020.04.15-10.16.24:092][ 25]LogWorld: Bringing up level for play took: 0.014112
+[2020.04.15-10.16.24:093][ 25]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.15-10.16.24:093][ 25]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.15-10.16.24:094][ 25]LogLoad: Took 0.094302 seconds to LoadMap(/Game/Maps/UEDPIE_0_LastPharaoh_MainScene)
+[2020.04.15-10.16.28:442][543]LogNet: Browse: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.16.28:442][543]LogLoad: LoadMap: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.16.28:482][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.04.15-10.16.28:482][543]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LastPharaoh_MainScene
+[2020.04.15-10.16.28:518][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036223s)
+[2020.04.15-10.16.28:519][543]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.15-10.16.28:519][543]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2020.04.15-10.16.28:519][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene to /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene (0.037007s)
+[2020.04.15-10.16.28:519][543]LogLoad: Game class is 'VRGameMode_C'
+[2020.04.15-10.16.28:533][543]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene up for play (max tick rate 0) at 2020.04.15-06.16.28
+[2020.04.15-10.16.28:534][543]LogWorld: Bringing up level for play took: 0.014702
+[2020.04.15-10.16.28:535][543]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.15-10.16.28:535][543]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.15-10.16.28:536][543]LogLoad: Took 0.093823 seconds to LoadMap(/Game/Maps/UEDPIE_0_LastPharaoh_MainScene)
+[2020.04.15-10.16.30:334][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene' with GeneratedClass '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene_C' with ClassGeneratedBy '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene'
+[2020.04.15-10.16.30:334][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-10.16.30:343][756]LogSlate: Window 'Last_Pharaoh Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.15-10.16.30:382][756]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.15-10.16.30:382][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene' with GeneratedClass '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene_C' with ClassGeneratedBy '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene'
+[2020.04.15-10.16.30:442][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.04.15-10.16.30:469][757]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.04.15-10.24.37:123][852]Candidate modules for hot reload:
+[2020.04.15-10.24.37:123][852]  Last_Pharaoh
+[2020.04.15-10.24.37:123][852]Launching UnrealBuildTool... [D:/Unreal/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Last_Pharaoh,9084 Win64 Development -TargetType=Editor -Project="D:/Unreal Projects/egyptVR/Last_Pharaoh/Last_Pharaoh.uproject" "D:/Unreal Projects/egyptVR/Last_Pharaoh/Last_Pharaoh.uproject"  -IgnoreJunk]
+[2020.04.15-10.24.37:131][852]Warning: Starting HotReload took  0.0s.
+[2020.04.15-10.24.56:240][103]CompilerResultsLog: New page: Compilation - Apr 15, 2020, 2:24:56 AM
+[2020.04.15-10.24.56:240][103]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\egyptVR).
+[2020.04.15-10.24.56:240][103]CompilerResultsLog: Creating makefile for Last_PharaohEditor (ini files are newer than makefile)
+[2020.04.15-10.24.56:240][103]CompilerResultsLog: Parsing headers for Last_PharaohEditor
+[2020.04.15-10.24.56:240][103]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\egyptVR\Last_Pharaoh\Last_Pharaoh.uproject" "D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\Last_PharaohEditor\Development\Last_PharaohEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.15-10.24.56:240][103]CompilerResultsLog: Reflection code generated for Last_PharaohEditor in 6.9380708 seconds
+[2020.04.15-10.24.56:240][103]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.15-10.24.56:240][103]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.04.15-10.24.56:240][103]CompilerResultsLog:   [1/4] VRCharacter.cpp
+[2020.04.15-10.24.56:240][103]CompilerResultsLog:   D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\VRCharacter.cpp(32): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.04.15-10.24.56:240][103]CompilerResultsLog:   [2/4] UE4Editor-Last_Pharaoh-9084.lib
+[2020.04.15-10.24.56:240][103]CompilerResultsLog:      Creating library D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-9084.lib and object D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-9084.exp
+[2020.04.15-10.24.56:240][103]CompilerResultsLog:   [3/4] UE4Editor-Last_Pharaoh-9084.dll
+[2020.04.15-10.24.56:240][103]CompilerResultsLog:      Creating library D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-9084.suppressed.lib and object D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-9084.suppressed.exp
+[2020.04.15-10.24.56:240][103]CompilerResultsLog:   [4/4] Last_PharaohEditor.target
+[2020.04.15-10.24.56:240][103]CompilerResultsLog: Total time in Parallel executor: 10.06 seconds
+[2020.04.15-10.24.56:240][103]CompilerResultsLog: Total execution time: 19.00 seconds
+[2020.04.15-10.24.56:240][103]LogMainFrame: MainFrame: Module compiling took 19.122 seconds
+[2020.04.15-10.24.56:273][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.04.15-10.24.56:555][103]LogContentBrowser: Native class hierarchy updated for 'Last_Pharaoh' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2020.04.15-10.24.56:560][103]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.15-10.24.56:623][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.04.15-10.24.56:637][103]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2738 classes and 663 folders.
+[2020.04.15-10.24.56:637][103]Display: HotReload took 19.5s.
+[2020.04.15-10.28.00:744][608]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-10.28.02:100][770]MapCheck: New page: Map Check
+[2020.04.15-10.28.02:114][770]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-10.28.02:118][770]LightingResults: New page: Lighting Build - Apr 15, 2020, 2:28:02 AM
+[2020.04.15-10.28.02:133][770]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.04.15-10.28.02:146][770]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.04.15-10.28.02:146][770]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.04.15-10.28.02:148][770]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.04.15-10.28.02:148][770]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5388
+[2020.04.15-10.28.06:847][770]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.04.15-10.28.06:847][770]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.04.15-10.28.06:847][770]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.04.15-10.28.06:847][770]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.04.15-10.28.06:847][770]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.04.15-10.28.06:847][770]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.04.15-10.28.07:094][770]LogEditorBuildUtils: Build time 0:04
+[2020.04.15-10.28.07:103][770]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 08_-_Default, compiling. 
+[2020.04.15-10.28.07:175][770]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 08_-_Default, compiling. 
+[2020.04.15-10.28.07:219][771]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default, compiling. 
+[2020.04.15-10.28.07:227][771]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default, compiling. 
+[2020.04.15-10.28.07:253][772]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default_Slot__5, compiling. 
+[2020.04.15-10.28.07:261][772]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default_Slot__5, compiling. 
+[2020.04.15-10.28.07:282][773]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default_Slot__4, compiling. 
+[2020.04.15-10.28.07:290][773]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default_Slot__4, compiling. 
+[2020.04.15-10.28.07:314][774]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default_Slot__6, compiling. 
+[2020.04.15-10.28.07:323][774]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default_Slot__6, compiling. 
+[2020.04.15-10.28.07:341][775]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default_Slot__3, compiling. 
+[2020.04.15-10.28.07:349][775]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default_Slot__3, compiling. 
+[2020.04.15-10.28.07:367][776]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default_Slot__7, compiling. 
+[2020.04.15-10.28.07:376][776]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default_Slot__7, compiling. 
+[2020.04.15-10.28.10:595][787]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.04.15-10.28.23:544][772]LightingResults: Warning: door Object has overlapping UVs.
+[2020.04.15-10.28.23:544][772]LightingResults: door Lightmap UV are overlapping by 5.3%. Please adjust content - Enable Error Coloring to visualize.
+[2020.04.15-10.28.23:691][783]Job is a success!
+[2020.04.15-10.28.23:772][784]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-10.28.23:944][784]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.019s
+[2020.04.15-10.28.23:944][784]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.04.15-10.28.23:944][784]LogVolumetricLightmapImport:      BrickData 400x5x5 = 0.4Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2020.04.15-10.28.23:944][784]LogVolumetricLightmapImport:      Bricks at Level
+[2020.04.15-10.28.23:944][784]LogVolumetricLightmapImport:          0: 1.3% covering 100.0% of volume
+[2020.04.15-10.28.23:944][784]LogVolumetricLightmapImport:          1: 5.0% covering 6.3% of volume
+[2020.04.15-10.28.23:944][784]LogVolumetricLightmapImport:          2: 93.8% covering 1.8% of volume
+[2020.04.15-10.28.25:768][784]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: SkyOcclusion0_9 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: SkyOcclusion0_10 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: SkyOcclusion0_11 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: SkyOcclusion0_12 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:769][784]LogTexture: Display: Building textures: SkyOcclusion0_13 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: SkyOcclusion1_14 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: SkyOcclusion1_15 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: SkyOcclusion1_16 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: LQ_Lightmap_1_16 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: SkyOcclusion1_17 (AutoDXT, 1024X512)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: LQ_Lightmap_1_17 (DXT1, 1024X1024)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: SkyOcclusion1_18 (AutoDXT, 64X32)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 64X64)
+[2020.04.15-10.28.25:770][784]LogTexture: Display: Building textures: LQ_Lightmap_1_18 (DXT1, 64X64)
+[2020.04.15-10.28.25:807][784]Lightmass on DESKTOP-NKQ22UT: 14.5 sec total, 156 ms importing, 48 ms setup, 2.08 sec photons, 12.2 sec processing, 0 ms extra exporting [708/708 mappings]. Threads: 2:13 min total, 1:28 min processing.
+[2020.04.15-10.28.25:828][784]LogStaticLightingSystem: LastPharaoh_MainScene_BuiltData storing lightmap data for 708 meshes in 18 LightmapResourceClusters (39.3 Meshes per cluster).
+[2020.04.15-10.28.25:898][784]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.04.15-10.28.25:905][784]LogStaticLightingSystem: Illumination: 23.7 sec (1.22 sec encoding lightmaps, 0 ms encoding shadowmaps)
+[2020.04.15-10.28.25:905][784]LogStaticLightingSystem: Lightmap texture memory:  45.3 MB (45.3 MB streaming, 0.0 MB non-streaming), 36 textures
+[2020.04.15-10.28.25:905][784]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.04.15-10.28.26:893][784]DumpUnbuiltLightIteractions
+[2020.04.15-10.28.26:893][784]Lights with unbuilt interactions: 0
+[2020.04.15-10.28.26:893][784]
+[2020.04.15-10.28.26:893][784]Primitives with unbuilt interactions: 0
+[2020.04.15-10.28.27:006][785]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.04.15-10.28.27:006][785]MapCheck: New page: LastPharaoh_MainScene - Apr 15, 2020, 2:28:27 AM
+[2020.04.15-10.28.27:011][785]MapCheck: Warning: BP_DamageTrap_2 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-10.28.27:011][785]MapCheck: Warning: BP_DamageTrap2_5 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-10.28.27:011][785]MapCheck: Warning: BP_DamageTrap3_8 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-10.28.27:011][785]MapCheck: Warning: BP_DamageTrap4_11 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-10.28.27:011][785]MapCheck: Warning: door_26 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-10.28.27:012][785]MapCheck: Map check complete: 0 Error(s), 5 Warning(s), took 6.085ms to complete.
+[2020.04.15-10.28.28:566][933]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.15-10.28.28:632][941]LogSlate: Window 'Message Log' being destroyed
+[2020.04.15-10.28.31:182][225]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2020.04.15-10.28.32:667][358]Cmd: DELETE
+[2020.04.15-10.28.32:667][358]Cmd: ACTOR DELETE
+[2020.04.15-10.28.33:020][358]LogEditorActor: Deleted Actor: SkyLight
+[2020.04.15-10.28.33:051][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.04.15-10.28.33:052][358]LogEditorActor: Deleted 1 Actors (0.107 secs)
+[2020.04.15-10.28.36:046][697]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-10.28.36:766][783]MapCheck: New page: Map Check
+[2020.04.15-10.28.36:776][783]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-10.28.36:780][783]LightingResults: New page: Lighting Build - Apr 15, 2020, 2:28:36 AM
+[2020.04.15-10.28.36:795][783]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.04.15-10.28.36:806][783]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.04.15-10.28.36:806][783]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.04.15-10.28.36:807][783]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.04.15-10.28.36:807][783]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5388
+[2020.04.15-10.28.41:314][783]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.04.15-10.28.41:314][783]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.04.15-10.28.41:314][783]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.04.15-10.28.41:314][783]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.04.15-10.28.41:314][783]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.04.15-10.28.41:314][783]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.04.15-10.28.41:440][783]LogEditorBuildUtils: Build time 0:04
+[2020.04.15-10.28.41:490][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.04.15-10.28.52:832][698]Job is a success!
+[2020.04.15-10.28.52:871][698]LightingResults: Warning: door Object has overlapping UVs.
+[2020.04.15-10.28.52:871][698]LightingResults: door Lightmap UV are overlapping by 5.3%. Please adjust content - Enable Error Coloring to visualize.
+[2020.04.15-10.28.53:337][699]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.023s
+[2020.04.15-10.28.53:337][699]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.04.15-10.28.53:337][699]LogVolumetricLightmapImport:      BrickData 25x5x5 = 0.0Mb (trimmed 0.4Mb due to 0.010000 MinBrickError)
+[2020.04.15-10.28.53:337][699]LogVolumetricLightmapImport:      Bricks at Level
+[2020.04.15-10.28.53:337][699]LogVolumetricLightmapImport:          0: 20.0% covering 100.0% of volume
+[2020.04.15-10.28.53:337][699]LogVolumetricLightmapImport:          1: 80.0% covering 6.3% of volume
+[2020.04.15-10.28.53:337][699]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:086][699]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 1024X1024)
+[2020.04.15-10.28.54:087][699]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 1024X1024)
+[2020.04.15-10.28.54:149][699]Lightmass on DESKTOP-NKQ22UT: 12.0 sec total, 157 ms importing, 51 ms setup, 1.86 sec photons, 9.92 sec processing, 0 ms extra exporting [708/708 mappings]. Threads: 1:48 min total, 1:21 min processing.
+[2020.04.15-10.28.54:153][699]LogStaticLightingSystem: LastPharaoh_MainScene_BuiltData storing lightmap data for 708 meshes in 18 LightmapResourceClusters (39.3 Meshes per cluster).
+[2020.04.15-10.28.54:213][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.04.15-10.28.54:218][699]LogStaticLightingSystem: Illumination: 17.1 sec (427 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2020.04.15-10.28.54:218][699]LogStaticLightingSystem: Lightmap texture memory:  34.0 MB (34.0 MB streaming, 0.0 MB non-streaming), 34 textures
+[2020.04.15-10.28.54:218][699]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.04.15-10.28.54:343][699]DumpUnbuiltLightIteractions
+[2020.04.15-10.28.54:343][699]Lights with unbuilt interactions: 0
+[2020.04.15-10.28.54:343][699]
+[2020.04.15-10.28.54:343][699]Primitives with unbuilt interactions: 0
+[2020.04.15-10.28.54:391][700]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.04.15-10.28.54:391][700]MapCheck: New page: LastPharaoh_MainScene - Apr 15, 2020, 2:28:54 AM
+[2020.04.15-10.28.54:393][700]MapCheck: Warning: BP_DamageTrap_2 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-10.28.54:393][700]MapCheck: Warning: BP_DamageTrap2_5 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-10.28.54:393][700]MapCheck: Warning: BP_DamageTrap3_8 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-10.28.54:393][700]MapCheck: Warning: BP_DamageTrap4_11 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-10.28.54:393][700]MapCheck: Warning: door_26 Static mesh actor has NULL StaticMesh property 
+[2020.04.15-10.28.54:395][700]MapCheck: Map check complete: 0 Error(s), 5 Warning(s), took 3.496ms to complete.
+[2020.04.15-10.29.13:474][757]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.15-10.29.13:475][757]LogSlate: Window 'Message Log' being destroyed
+[2020.04.15-10.29.16:019][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.15-10.29.16:110][ 59]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.15-10.29.16:122][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene' with GeneratedClass '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene_C' with ClassGeneratedBy '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene'
+[2020.04.15-10.29.16:122][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.15-10.29.16:122][ 59]PIE: New page: PIE session: LastPharaoh_MainScene (Apr 15, 2020, 2:29:16 AM)
+[2020.04.15-10.29.16:122][ 59]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LastPharaoh_MainScene
+[2020.04.15-10.29.16:164][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042385s)
+[2020.04.15-10.29.16:165][ 59]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.15-10.29.16:165][ 59]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2020.04.15-10.29.16:165][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene to /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene (0.043601s)
+[2020.04.15-10.29.16:198][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.04.15-10.29.16:259][ 59]LogInit: XAudio2 using 'Speakers (2- Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.15-10.29.16:305][ 59]LogInit: FAudioDevice initialized.
+[2020.04.15-10.29.16:319][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-10.29.16:354][ 59]LogLoad: Game class is 'VRGameMode_C'
+[2020.04.15-10.29.16:371][ 59]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene up for play (max tick rate 0) at 2020.04.15-06.29.16
+[2020.04.15-10.29.16:372][ 59]LogWorld: Bringing up level for play took: 0.016643
+[2020.04.15-10.29.16:385][ 59]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.15-10.29.16:385][ 59]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.15-10.29.16:388][ 59]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_LastPharaoh_MainScene 0.297
+[2020.04.15-10.29.16:389][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene' with GeneratedClass '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene_C' with ClassGeneratedBy '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene'
+[2020.04.15-10.29.26:437][245]LogNet: Browse: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.29.26:439][245]LogLoad: LoadMap: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.29.26:481][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.04.15-10.29.26:481][245]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LastPharaoh_MainScene
+[2020.04.15-10.29.26:519][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038283s)
+[2020.04.15-10.29.26:520][245]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.15-10.29.26:520][245]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2020.04.15-10.29.26:520][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene to /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene (0.039080s)
+[2020.04.15-10.29.26:520][245]LogLoad: Game class is 'VRGameMode_C'
+[2020.04.15-10.29.26:538][245]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene up for play (max tick rate 0) at 2020.04.15-06.29.26
+[2020.04.15-10.29.26:539][245]LogWorld: Bringing up level for play took: 0.018092
+[2020.04.15-10.29.26:540][245]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.15-10.29.26:540][245]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.15-10.29.26:541][245]LogLoad: Took 0.102298 seconds to LoadMap(/Game/Maps/UEDPIE_0_LastPharaoh_MainScene)
+[2020.04.15-10.29.43:954][333]LogNet: Browse: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.29.43:956][333]LogLoad: LoadMap: /Game/Maps/LastPharaoh_MainScene
+[2020.04.15-10.29.43:997][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.04.15-10.29.43:997][333]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LastPharaoh_MainScene
+[2020.04.15-10.29.44:037][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040093s)
+[2020.04.15-10.29.44:038][333]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.15-10.29.44:038][333]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2020.04.15-10.29.44:038][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene to /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene (0.040955s)
+[2020.04.15-10.29.44:038][333]LogLoad: Game class is 'VRGameMode_C'
+[2020.04.15-10.29.44:054][333]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LastPharaoh_MainScene.LastPharaoh_MainScene up for play (max tick rate 0) at 2020.04.15-06.29.44
+[2020.04.15-10.29.44:055][333]LogWorld: Bringing up level for play took: 0.016494
+[2020.04.15-10.29.44:056][333]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.15-10.29.44:056][333]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.15-10.29.44:057][333]LogLoad: Took 0.101421 seconds to LoadMap(/Game/Maps/UEDPIE_0_LastPharaoh_MainScene)
+[2020.04.15-10.29.47:422][729]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene' with GeneratedClass '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene_C' with ClassGeneratedBy '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene'
+[2020.04.15-10.29.47:422][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-10.29.47:436][729]LogSlate: Window 'Last_Pharaoh Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.15-10.29.47:481][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.15-10.29.47:481][729]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene' with GeneratedClass '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene_C' with ClassGeneratedBy '/Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene:PersistentLevel.LastPharaoh_MainScene'
+[2020.04.15-10.29.47:549][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.04.15-10.29.47:565][730]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.04.15-10.29.53:611][427]LogEditorViewport: Clicking on Actor (LMB): BP_TriggerTrap_C (BP_TriggerTrap6)
+[2020.04.15-10.30.05:102][754]LogSlate: Took 0.010837 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.15-10.30.07:722][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.15-10.30.16:796][127]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-10.30.16:839][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.04.15-10.30.17:631][127]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/LastPharaoh_MainScene5E477AC04CE00B42388A7A96D4FE02D3.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Maps/LastPharaoh_MainScene.umap'
+[2020.04.15-10.30.17:656][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LastPharaoh_MainScene_BuiltData" FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Maps/LastPharaoh_MainScene_BuiltData.uasset" SILENT=true
+[2020.04.15-10.30.18:285][127]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/LastPharaoh_MainScene_BuiltDataF3E1C0214E15F1F16C8324A452D50E87.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Maps/LastPharaoh_MainScene_BuiltData.uasset'
+[2020.04.15-10.30.37:121][345]LogEditorViewport: Clicking on Actor (LMB): BP_TriggerTrap_C (BP_TriggerTrap4)
+[2020.04.15-10.30.43:094][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.15-10.30.53:834][298]LogEditorViewport: Clicking on Actor (LMB): BP_TriggerTrap_C (BP_TriggerTrap7)
+[2020.04.15-10.30.57:567][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.15-10.31.03:584][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.15-10.31.03:682][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.04.15-10.31.04:861][421]LogSlate: Window 'Save Content' being destroyed
+[2020.04.15-10.31.04:876][421]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.15-10.31.04:916][421]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.04.15-10.31.05:609][421]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/LastPharaoh_MainScene1DA79D0C4D54E170FD012ABF0FF8440B.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Maps/LastPharaoh_MainScene.umap'
+[2020.04.15-10.31.05:632][421]LogFileHelpers: Saving map 'LastPharaoh_MainScene' took 0.751
+[2020.04.15-10.31.32:137][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.15-10.33.16:633][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor49)
+[2020.04.15-10.33.47:921][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.15-10.33.48:027][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.04.15-10.33.48:141][ 16]LogSlate: Window 'Last_Pharaoh - Unreal Editor' being destroyed
+[2020.04.15-10.33.48:581][ 17]Cmd: QUIT_EDITOR
+[2020.04.15-10.33.49:593][ 17]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.15-10.33.49:667][ 17]LogExit: Preparing to exit.
+[2020.04.15-10.33.50:716][ 17]LogExit: Editor shut down
+[2020.04.15-10.33.50:717][ 17]LogExit: Transaction tracking system shut down
+[2020.04.15-10.33.52:460][ 17]LogExit: Object subsystem successfully closed.
+[2020.04.15-10.33.52:606][ 17]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.04.15-10.33.52:708][ 17]LogD3D11RHI: Shutdown
+[2020.04.15-10.33.52:708][ 17]LogD3D11RHI: CleanupD3DDevice
+[2020.04.15-10.33.52:725][ 17]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.04.15-10.33.52:725][ 17]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.04.15-10.33.52:751][ 17]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.04.15-10.33.52:751][ 17]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.04.15-10.33.52:751][ 17]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.04.15-10.33.52:751][ 17]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.04.15-10.33.52:891][ 17]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.04.15-10.33.54:857][ 17]LogModuleManager: Shutting down and abandoning module Last_Pharaoh (651)
+[2020.04.15-10.33.54:857][ 17]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (650)
+[2020.04.15-10.33.54:857][ 17]LogModuleManager: Shutting down and abandoning module Voice (648)
+[2020.04.15-10.33.54:861][ 17]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2020.04.15-10.33.54:861][ 17]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2020.04.15-10.33.54:861][ 17]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2020.04.15-10.33.54:872][ 17]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2020.04.15-10.33.54:872][ 17]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2020.04.15-10.33.54:872][ 17]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2020.04.15-10.33.54:884][ 17]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2020.04.15-10.33.54:895][ 17]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2020.04.15-10.33.54:902][ 17]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2020.04.15-10.33.54:918][ 17]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2020.04.15-10.33.54:928][ 17]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2020.04.15-10.33.54:928][ 17]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2020.04.15-10.33.54:928][ 17]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2020.04.15-10.33.54:928][ 17]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2020.04.15-10.33.54:928][ 17]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2020.04.15-10.33.54:928][ 17]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2020.04.15-10.33.54:945][ 17]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2020.04.15-10.33.54:948][ 17]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2020.04.15-10.33.54:953][ 17]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2020.04.15-10.33.54:953][ 17]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2020.04.15-10.33.54:958][ 17]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2020.04.15-10.33.54:962][ 17]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2020.04.15-10.33.54:992][ 17]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2020.04.15-10.33.54:992][ 17]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2020.04.15-10.33.55:073][ 17]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2020.04.15-10.33.55:084][ 17]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2020.04.15-10.33.55:085][ 17]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2020.04.15-10.33.55:085][ 17]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2020.04.15-10.33.55:085][ 17]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2020.04.15-10.33.55:085][ 17]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2020.04.15-10.33.55:088][ 17]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2020.04.15-10.33.55:098][ 17]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2020.04.15-10.33.55:120][ 17]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2020.04.15-10.33.55:131][ 17]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2020.04.15-10.33.55:131][ 17]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2020.04.15-10.33.55:131][ 17]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2020.04.15-10.33.55:142][ 17]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2020.04.15-10.33.55:163][ 17]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2020.04.15-10.33.55:178][ 17]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2020.04.15-10.33.55:202][ 17]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2020.04.15-10.33.55:222][ 17]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2020.04.15-10.33.55:222][ 17]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2020.04.15-10.33.55:222][ 17]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2020.04.15-10.33.55:222][ 17]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2020.04.15-10.33.55:233][ 17]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2020.04.15-10.33.55:320][ 17]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2020.04.15-10.33.55:320][ 17]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2020.04.15-10.33.55:320][ 17]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2020.04.15-10.33.55:320][ 17]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2020.04.15-10.33.55:320][ 17]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2020.04.15-10.33.55:321][ 17]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2020.04.15-10.33.55:337][ 17]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2020.04.15-10.33.55:379][ 17]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2020.04.15-10.33.55:393][ 17]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2020.04.15-10.33.55:403][ 17]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2020.04.15-10.33.55:403][ 17]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2020.04.15-10.33.55:410][ 17]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2020.04.15-10.33.55:421][ 17]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2020.04.15-10.33.55:430][ 17]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2020.04.15-10.33.55:430][ 17]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2020.04.15-10.33.55:430][ 17]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2020.04.15-10.33.55:431][ 17]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2020.04.15-10.33.55:431][ 17]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2020.04.15-10.33.55:444][ 17]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2020.04.15-10.33.55:452][ 17]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2020.04.15-10.33.55:463][ 17]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2020.04.15-10.33.55:469][ 17]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2020.04.15-10.33.55:475][ 17]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2020.04.15-10.33.55:519][ 17]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2020.04.15-10.33.55:534][ 17]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2020.04.15-10.33.55:541][ 17]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2020.04.15-10.33.55:550][ 17]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2020.04.15-10.33.55:550][ 17]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2020.04.15-10.33.55:559][ 17]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2020.04.15-10.33.55:560][ 17]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2020.04.15-10.33.55:574][ 17]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2020.04.15-10.33.55:598][ 17]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2020.04.15-10.33.55:598][ 17]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2020.04.15-10.33.55:598][ 17]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2020.04.15-10.33.55:608][ 17]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2020.04.15-10.33.55:660][ 17]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2020.04.15-10.33.55:661][ 17]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2020.04.15-10.33.55:661][ 17]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2020.04.15-10.33.55:665][ 17]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2020.04.15-10.33.55:672][ 17]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2020.04.15-10.33.55:676][ 17]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2020.04.15-10.33.55:676][ 17]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2020.04.15-10.33.55:687][ 17]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2020.04.15-10.33.55:687][ 17]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2020.04.15-10.33.55:705][ 17]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2020.04.15-10.33.55:705][ 17]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2020.04.15-10.33.55:705][ 17]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2020.04.15-10.33.55:712][ 17]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2020.04.15-10.33.55:749][ 17]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2020.04.15-10.33.55:750][ 17]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2020.04.15-10.33.55:750][ 17]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2020.04.15-10.33.55:750][ 17]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2020.04.15-10.33.55:750][ 17]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2020.04.15-10.33.55:750][ 17]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2020.04.15-10.33.55:750][ 17]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2020.04.15-10.33.55:750][ 17]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2020.04.15-10.33.55:754][ 17]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2020.04.15-10.33.55:754][ 17]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2020.04.15-10.33.55:758][ 17]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2020.04.15-10.33.55:906][ 17]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2020.04.15-10.33.55:937][ 17]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2020.04.15-10.33.55:937][ 17]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2020.04.15-10.33.55:946][ 17]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2020.04.15-10.33.55:969][ 17]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2020.04.15-10.33.55:982][ 17]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2020.04.15-10.33.55:982][ 17]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2020.04.15-10.33.55:982][ 17]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2020.04.15-10.33.55:994][ 17]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2020.04.15-10.33.55:994][ 17]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2020.04.15-10.33.56:004][ 17]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2020.04.15-10.33.56:004][ 17]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2020.04.15-10.33.56:004][ 17]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2020.04.15-10.33.56:004][ 17]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2020.04.15-10.33.56:016][ 17]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2020.04.15-10.33.56:017][ 17]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2020.04.15-10.33.56:017][ 17]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2020.04.15-10.33.56:017][ 17]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2020.04.15-10.33.56:017][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2020.04.15-10.33.56:017][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2020.04.15-10.33.56:024][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2020.04.15-10.33.56:030][ 17]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2020.04.15-10.33.56:030][ 17]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2020.04.15-10.33.56:030][ 17]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2020.04.15-10.33.56:030][ 17]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2020.04.15-10.33.56:040][ 17]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2020.04.15-10.33.56:040][ 17]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2020.04.15-10.33.56:040][ 17]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2020.04.15-10.33.56:040][ 17]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2020.04.15-10.33.56:040][ 17]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2020.04.15-10.33.56:040][ 17]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2020.04.15-10.33.56:040][ 17]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2020.04.15-10.33.56:040][ 17]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2020.04.15-10.33.56:040][ 17]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2020.04.15-10.33.56:085][ 17]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2020.04.15-10.33.56:085][ 17]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2020.04.15-10.33.56:234][ 17]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2020.04.15-10.33.56:282][ 17]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2020.04.15-10.33.56:295][ 17]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2020.04.15-10.33.56:295][ 17]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2020.04.15-10.33.56:295][ 17]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2020.04.15-10.33.56:295][ 17]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2020.04.15-10.33.56:295][ 17]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2020.04.15-10.33.56:295][ 17]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2020.04.15-10.33.56:353][ 17]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2020.04.15-10.33.56:523][ 17]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2020.04.15-10.33.56:579][ 17]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2020.04.15-10.33.56:588][ 17]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2020.04.15-10.33.56:588][ 17]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2020.04.15-10.33.56:588][ 17]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2020.04.15-10.33.56:588][ 17]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2020.04.15-10.33.56:588][ 17]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2020.04.15-10.33.56:588][ 17]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2020.04.15-10.33.56:588][ 17]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2020.04.15-10.33.56:588][ 17]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2020.04.15-10.33.56:696][ 17]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2020.04.15-10.33.56:696][ 17]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2020.04.15-10.33.56:696][ 17]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2020.04.15-10.33.56:696][ 17]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2020.04.15-10.33.56:696][ 17]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2020.04.15-10.33.56:696][ 17]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.04.15-10.33.56:696][ 17]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.04.15-10.33.56:797][ 17]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.04.15-10.33.56:927][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2020.04.15-10.33.56:927][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2020.04.15-10.33.56:927][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2020.04.15-10.33.56:949][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2020.04.15-10.33.56:949][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2020.04.15-10.33.56:963][ 17]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.04.15-10.33.56:963][ 17]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2020.04.15-10.33.56:963][ 17]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2020.04.15-10.33.56:963][ 17]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2020.04.15-10.33.56:976][ 17]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2020.04.15-10.33.56:976][ 17]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2020.04.15-10.33.56:976][ 17]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2020.04.15-10.33.56:976][ 17]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2020.04.15-10.33.57:108][ 17]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.04.15-10.33.57:131][ 17]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.04.15-10.33.57:136][ 17]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2020.04.15-10.33.57:136][ 17]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2020.04.15-10.33.57:136][ 17]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2020.04.15-10.33.57:184][ 17]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2020.04.15-10.33.57:185][ 17]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2020.04.15-10.33.57:226][ 17]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2020.04.15-10.33.57:226][ 17]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.04.15-10.33.57:226][ 17]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2020.04.15-10.33.57:226][ 17]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2020.04.15-10.33.57:233][ 17]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2020.04.15-10.33.57:239][ 17]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2020.04.15-10.33.57:291][ 17]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.04.15-10.33.57:292][ 17]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.04.15-10.33.57:292][ 17]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.04.15-10.33.57:373][ 17]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.04.15-10.33.57:373][ 17]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.04.15-10.33.57:373][ 17]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.04.15-10.33.57:373][ 17]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.04.15-10.33.57:454][ 17]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.04.15-10.33.57:468][ 17]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.04.15-10.33.57:468][ 17]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.04.15-10.33.57:530][ 17]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.04.15-10.33.57:589][ 17]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.04.15-10.33.57:660][ 17]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.04.15-10.33.57:711][ 17]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.04.15-10.33.57:722][ 17]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.04.15-10.33.57:778][ 17]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.04.15-10.33.57:971][ 17]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.04.15-10.33.57:971][ 17]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.04.15-10.33.58:095][ 17]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.04.15-10.33.58:095][ 17]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.04.15-10.33.58:097][ 17]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2020.04.15-10.33.58:133][ 17]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.04.15-10.33.58:133][ 17]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.04.15-10.33.58:133][ 17]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.04.15-10.33.58:133][ 17]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.04.15-10.33.58:133][ 17]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.04.15-10.33.58:133][ 17]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.04.15-10.33.58:133][ 17]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.04.15-10.33.58:133][ 17]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.04.15-10.33.58:133][ 17]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.04.15-10.33.58:149][ 17]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.04.15-10.33.58:150][ 17]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2020.04.15-10.33.58:161][ 17]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2020.04.15-10.33.58:211][ 17]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2020.04.15-10.33.58:221][ 17]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2020.04.15-10.33.58:231][ 17]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.04.15-10.33.58:252][ 17]LogDerivedDataCache: Shutdown
+[2020.04.15-10.33.58:252][ 17]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.04.15-10.33.58:252][ 17]LogXGEController: Cleaning working directory: C:/Users/Tetewet/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.15-10.33.58:282][ 17]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.04.15-10.33.58:295][ 17]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.04.15-10.33.58:299][ 17]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.04.15-10.33.58:309][ 17]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.04.15-10.33.58:319][ 17]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.04.15-10.33.58:324][ 17]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.04.15-10.33.58:333][ 17]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.04.15-10.33.58:333][ 17]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.04.15-10.33.58:333][ 17]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.04.15-10.33.58:333][ 17]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.04.15-10.33.58:351][ 17]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.04.15-10.33.58:351][ 17]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.04.15-10.33.58:351][ 17]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.04.15-10.33.58:351][ 17]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.04.15-10.33.58:381][ 17]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.04.15-10.33.58:382][ 17]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.04.15-10.33.58:389][ 17]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2020.04.15-10.33.58:427][ 17]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.04.15-10.33.58:427][ 17]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.04.15-10.33.58:524][ 17]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.04.15-10.33.58:529][ 17]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.04.15-10.33.58:542][ 17]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.04.15-10.33.58:546][ 17]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.04.15-10.33.58:546][ 17]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.04.15-10.33.58:549][ 17]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.04.15-10.33.58:549][ 17]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.04.15-10.33.58:576][ 17]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2020.04.15-10.33.58:577][ 17]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2020.04.15-10.33.58:577][ 17]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2020.04.15-10.33.58:577][ 17]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2020.04.15-10.33.58:577][ 17]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2020.04.15-10.33.58:577][ 17]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2020.04.15-10.33.58:577][ 17]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2020.04.15-10.33.58:577][ 17]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2020.04.15-10.33.58:577][ 17]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2020.04.15-10.33.58:577][ 17]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2020.04.15-10.33.58:577][ 17]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2020.04.15-10.33.58:577][ 17]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2020.04.15-10.33.58:578][ 17]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2020.04.15-10.33.58:578][ 17]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2020.04.15-10.33.58:608][ 17]LogHMD: Freeing OpenVRDLLHandle.
+[2020.04.15-10.33.58:608][ 17]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2020.04.15-10.33.58:618][ 17]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2020.04.15-10.33.58:618][ 17]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2020.04.15-10.33.58:618][ 17]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2020.04.15-10.33.58:618][ 17]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2020.04.15-10.33.58:619][ 17]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2020.04.15-10.33.58:637][ 17]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2020.04.15-10.33.58:862][ 17]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2020.04.15-10.33.58:862][ 17]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.04.15-10.33.58:862][ 17]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD35E2C6E-462C-4C4D-E2E5-B09B695300E7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=bdd892574c8cafdc0a5898b2627f64c6%7Cfcf7277d808b43a5bafea4314456a889%7C22eb3e75-93f3-4147-9a4f-ee1afdc4f5b1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.04.15-10.33.58:887][ 17]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2020.04.15-10.33.58:889][ 17]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2020.04.15-10.33.58:909][ 17]LogModuleManager: Shutting down and abandoning module Media (45)
+[2020.04.15-10.33.58:915][ 17]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2020.04.15-10.33.58:924][ 17]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2020.04.15-10.33.58:925][ 17]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.04.15-10.33.58:935][ 17]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.04.15-10.33.58:953][ 17]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.04.15-10.33.58:985][ 17]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.04.15-10.33.58:985][ 17]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.04.15-10.33.58:985][ 17]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.04.15-10.33.58:985][ 17]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.04.15-10.33.58:999][ 17]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.04.15-10.33.59:011][ 17]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.04.15-10.33.59:011][ 17]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.04.15-10.33.59:016][ 17]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.04.15-10.33.59:016][ 17]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.04.15-10.33.59:016][ 17]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.04.15-10.33.59:016][ 17]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.04.15-10.33.59:026][ 17]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.04.15-10.33.59:026][ 17]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.04.15-10.33.59:033][ 17]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.04.15-10.33.59:033][ 17]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.04.15-10.33.59:042][ 17]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.04.15-10.33.59:162][ 17]LogExit: Exiting.
+[2020.04.15-10.33.59:175][ 17]Log file closed, 04/15/20 06:33:59

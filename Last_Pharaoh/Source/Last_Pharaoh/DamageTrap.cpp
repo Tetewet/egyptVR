@@ -41,21 +41,27 @@ void ADamageTrap::NotifyActorBeginOverlap(AActor* OtherActor)
 	auto player = Cast<AVRCharacter>(OtherActor);
 	if (player != nullptr && bIsTriggered)
 	{
+		//put a delay, and make the character not move anymore
+		OtherActor->GetComponentByClass(UCharacterMovementComponent::StaticClass());
+		player->GetCharacterMovement()->StopActiveMovement();
+
+		
 		//reset the player to the base location -> he's dead
 		player->DeathReset();
-		//damage the player or kill him
-		//GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Black, TEXT("YOU'VE BEEN HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIT"));
 	}
 }
 
 void ADamageTrap::TrapActivation()
 {
 	bIsTriggered = true;
-	//start an animation
-
 }
 
 bool ADamageTrap::GetTrapActivated()
 {
 	return bIsTriggered;
+}
+
+void ADamageTrap::DeactivateTrap()
+{
+	bIsTriggered = false;
 }

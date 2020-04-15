@@ -57,6 +57,7 @@ private:
 		float TeleportFadeTimer = 0.8f;
 	UPROPERTY(EditAnywhere)
 		float FadeTime = 0.5f;
+	float ReloadTimer = 3.0f;
 	UPROPERTY(EditAnywhere)
 		float MaxTeleport = 1000;
 	UPROPERTY(EditAnywhere)
@@ -86,6 +87,7 @@ private:
 	void EndTeleport();
 	void UpdateBlinker();
 	void TorchLamp();
+	void ReloadScene();
 public:
 	void DeathReset();
 };

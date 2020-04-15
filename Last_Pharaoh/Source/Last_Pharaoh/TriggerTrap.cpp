@@ -19,6 +19,14 @@ ATriggerTrap::ATriggerTrap()
 	//give a collision box to the trap
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionTriggerBox"));
 	CollisionBox->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+
+	//give a sound to play when activating the trigger
+	ActivationAudio = CreateDefaultSubobject<UAudioComponent>(TEXT("ActivationAudio"));
+	ActivationAudio->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+	DeactivationAudio = CreateDefaultSubobject<UAudioComponent>(TEXT("DeactivationAudio"));
+	DeactivationAudio->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+	ActivationAudio->Activate(false);
+	DeactivationAudio->Activate(false);
 }
 
 // Called when the game starts or when spawned
@@ -26,6 +34,10 @@ void ATriggerTrap::BeginPlay()
 {
 	Super::BeginPlay();
 
+	bIsActivatedOnce = false;
+
+	//activate the designated trap
+	DamageTrap->TrapActivation();
 }
 
 // Called every frame
@@ -41,19 +53,23 @@ void ATriggerTrap::NotifyActorBeginOverlap(AActor* OtherActor)
 	//check null
 	if (player != nullptr && DamageTrap != nullptr)
 	{
-		if (bIsTrapActivator)
+		//check if we are the activator : different sound and logic
+		if (bIsTrapActivator && ActivationAudio != nullptr)
 		{
-			//activate the designated trap
-			DamageTrap->TrapActivation();
-			//activate an animation ? a sound ? 
-
+			//activate a sound 
+			ActivationAudio->Play();
 		}
 		else
 		{
-			//destroy the designated trap
-			DamageTrap->Destroy();
-			//activate an animation ? a sound ? 
+			//deactivate the designated trap
+			DamageTrap->DeactivateTrap();
 
+			if (DeactivationAudio != nullptr && !bIsActivatedOnce)
+			{
+				//activate a sound 
+				DeactivationAudio->Play();
+				bIsActivatedOnce = true;
+			}
 		}
 	}
 }

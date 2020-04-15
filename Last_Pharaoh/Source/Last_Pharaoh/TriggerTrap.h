@@ -26,9 +26,14 @@ protected:
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* BaseMesh;
 	UPROPERTY(EditAnywhere)
+		UAudioComponent* ActivationAudio; 
+	UPROPERTY(EditAnywhere)
+		UAudioComponent* DeactivationAudio;
+	UPROPERTY(EditAnywhere)
 		bool bIsTrapActivator;
 	UPROPERTY(EditAnywhere)
 		ADamageTrap* DamageTrap;
+	bool bIsActivatedOnce;
 
 public:
 	// Called every frame
