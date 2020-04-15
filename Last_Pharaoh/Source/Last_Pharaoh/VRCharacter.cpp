@@ -195,3 +195,8 @@ void AVRCharacter::TorchLamp()
 {
 	TorchLight->Activate();
 }
+
+void AVRCharacter::DeathReset()
+{
+	Wrld->ServerTravel(FString("/Content/Maps/LastPharaoh_MainScene"));
+}

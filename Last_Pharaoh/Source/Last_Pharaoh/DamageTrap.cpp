@@ -42,9 +42,9 @@ void ADamageTrap::NotifyActorBeginOverlap(AActor* OtherActor)
 	if (player != nullptr && bIsTriggered)
 	{
 		//reset the player to the base location -> he's dead
-
+		player->DeathReset();
 		//damage the player or kill him
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Black, TEXT("YOU'VE BEEN HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIT"));
+		//GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Black, TEXT("YOU'VE BEEN HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIT"));
 	}
 }
 
@@ -53,4 +53,9 @@ void ADamageTrap::TrapActivation()
 	bIsTriggered = true;
 	//start an animation
 
+}
+
+bool ADamageTrap::GetTrapActivated()
+{
+	return bIsTriggered;
 }

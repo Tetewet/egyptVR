@@ -1,0 +1,737 @@
+﻿Log file open, 04/14/20 18:13:15
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Last_Pharaoh
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.408495
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: Last_Pharaoh
+Running D:/Unreal/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="D:/Unreal Projects/egyptVR/Last_Pharaoh/Last_Pharaoh.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\egyptVR).
+Creating makefile for Last_PharaohEditor (no existing makefile)
+@progress push 5%
+Parsing headers for Last_PharaohEditor
+  Running UnrealHeaderTool "D:\Unreal Projects\egyptVR\Last_Pharaoh\Last_Pharaoh.uproject" "D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\Last_PharaohEditor\Development\Last_PharaohEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for Last_PharaohEditor in 6.7366734 seconds
+@progress pop
+Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 17 actions with 12 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 6%
+  [1/17] Default.rc2
+  @progress 'Compiling C++ source code...' 12%
+  [2/17] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 18%
+  [3/17] Last_Pharaoh.init.gen.cpp
+  @progress 'Compiling C++ source code...' 24%
+  [4/17] Last_Pharaoh.cpp
+  @progress 'Compiling C++ source code...' 29%
+  [5/17] Last_PharaohGameModeBase.cpp
+  @progress 'Compiling C++ source code...' 35%
+  [6/17] Last_PharaohGameModeBase.gen.cpp
+  @progress 'Compiling C++ source code...' 41%
+  [7/17] VRCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 47%
+  [8/17] DamageTrap.cpp
+  @progress 'Compiling C++ source code...' 53%
+  [9/17] Trap.cpp
+  D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\Trap.cpp(14): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\Trap.cpp(20): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\Trap.cpp(24): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\Trap.cpp(27): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  @progress 'Compiling C++ source code...' 59%
+  [10/17] DamageTrap.gen.cpp
+  @progress 'Compiling C++ source code...' 65%
+  [11/17] VRCharacter.cpp
+  D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\VRCharacter.cpp(32): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  @progress 'Compiling C++ source code...' 71%
+  [12/17] TriggerTrap.gen.cpp
+  @progress 'Compiling C++ source code...' 76%
+  [13/17] Trap.gen.cpp
+  @progress 'Compiling C++ source code...' 82%
+  [14/17] TriggerTrap.cpp
+  @progress 'Compiling C++ source code...' 88%
+  [15/17] UE4Editor-Last_Pharaoh.lib
+     Creating library D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh.lib and object D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh.exp
+  @progress 'Compiling C++ source code...' 94%
+  [16/17] UE4Editor-Last_Pharaoh.dll
+     Creating library D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh.suppressed.lib and object D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [17/17] Last_PharaohEditor.target
+Total time in Parallel executor: 32.20 seconds
+Total execution time: 45.77 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.32.0
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 2600X Six-Core Processor           , GPU: Radeon RX 570 Series
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Unreal/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.14-22.14.15:255][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.14-22.14.15:255][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.14-22.14.15:255][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.14-22.14.15:255][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.14-22.14.15:255][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.04.14-22.14.15:255][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.14-22.14.15:255][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.14-22.14.15:255][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.14-22.14.15:255][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.14-22.14.15:256][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.14-22.14.15:256][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.14-22.14.15:262][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.14-22.14.15:262][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.14-22.14.15:263][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.14-22.14.15:263][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.14-22.14.15:263][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.14-22.14.15:271][  0]LogHAL: Display: Platform has ~ 16 GB [17080889344 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.04.14-22.14.15:271][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.14-22.14.15:271][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.14-22.14.15:271][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.14-22.14.15:271][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.14-22.14.15:271][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.14-22.14.15:272][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.14-22.14.15:273][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.14-22.14.15:273][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.14-22.14.15:273][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Config/Windows/Engine.ini]
+[2020.04.14-22.14.15:273][  0]LogInit: Computer: DESKTOP-NKQ22UT
+[2020.04.14-22.14.15:273][  0]LogInit: User: Tetewet
+[2020.04.14-22.14.15:273][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.04.14-22.14.15:273][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.14-22.14.15:273][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.14-22.14.15:273][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.14-22.14.15:273][  0]LogMemory: Process Physical Memory: 104.30 MB used, 104.30 MB peak
+[2020.04.14-22.14.15:273][  0]LogMemory: Process Virtual Memory: 93.57 MB used, 93.57 MB peak
+[2020.04.14-22.14.15:273][  0]LogMemory: Physical Memory: 6943.07 MB used,  9346.54 MB free, 16289.61 MB total
+[2020.04.14-22.14.15:273][  0]LogMemory: Virtual Memory: 4715.16 MB used,  134213016.00 MB free, 134217728.00 MB total
+[2020.04.14-22.14.15:294][  0]LogInit: Using OS detected language (en-US).
+[2020.04.14-22.14.15:294][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.14-22.14.15:295][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.14-22.14.15:449][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.14-22.14.15:484][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.14-22.14.15:484][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.14-22.14.15:816][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.04.14-22.14.15:816][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.14-22.14.15:858][  0]LogD3D11RHI:    0. 'Radeon RX 570 Series' (Feature Level 11_0)
+[2020.04.14-22.14.15:859][  0]LogD3D11RHI:       8171/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.04.14-22.14.15:861][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.14-22.14.15:861][  0]LogD3D11RHI:       0/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.14-22.14.15:861][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.14-22.14.15:872][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.14-22.14.15:872][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2020.04.14-22.14.15:872][  0]LogWindows: EnumDisplayDevices:
+[2020.04.14-22.14.15:873][  0]LogWindows:    0. 'Radeon RX 570 Series' (P:0 D:1)
+[2020.04.14-22.14.15:873][  0]LogWindows:    1. 'Radeon RX 570 Series' (P:1 D:1)
+[2020.04.14-22.14.15:873][  0]LogWindows:    2. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.14-22.14.15:874][  0]LogWindows:    3. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.14-22.14.15:874][  0]LogWindows:    4. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.14-22.14.15:874][  0]LogWindows:    5. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.14-22.14.15:875][  0]LogWindows:    6. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.14-22.14.15:875][  0]LogWindows:    7. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.14-22.14.15:875][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2020.04.14-22.14.15:875][  0]LogD3D11RHI:     Adapter Name: Radeon RX 570 Series
+[2020.04.14-22.14.15:875][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.4.1 (internal:26.20.15029.20013, unified:26.20.15029.20013)
+[2020.04.14-22.14.15:875][  0]LogD3D11RHI:      Driver Date: 4-1-2020
+[2020.04.14-22.14.15:875][  0]LogRHI: Texture pool is 5720 MB (70% of 8171 MB)
+[2020.04.14-22.14.15:943][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.14-22.14.15:946][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.14-22.14.15:947][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.14-22.14.15:947][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.14-22.14.15:954][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.04.14-22.14.16:251][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.04.14-22.14.16:267][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.04.14-22.14.16:282][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.04.14-22.14.16:297][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.04.14-22.14.16:314][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.04.14-22.14.16:329][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.04.14-22.14.16:344][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.14-22.14.16:360][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.04.14-22.14.16:367][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.04.14-22.14.16:458][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.04.14-22.14.16:461][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.04.14-22.14.16:514][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.04.14-22.14.16:514][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.04.14-22.14.16:541][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.04.14-22.14.16:541][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.04.14-22.14.16:555][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.04.14-22.14.16:569][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.14-22.14.16:583][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.04.14-22.14.16:597][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.04.14-22.14.16:649][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.04.14-22.14.16:650][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.04.14-22.14.16:650][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.14-22.14.16:660][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.14-22.14.16:701][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Intermediate/Shaders/WorkingDirectory/11700/).
+[2020.04.14-22.14.16:701][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tetewet/AppData/Local/Temp/UnrealShaderWorkingDir/B78526C4412692C0C32916B508964820/'.
+[2020.04.14-22.14.16:703][  0]LogXGEController: Cleaning working directory: C:/Users/Tetewet/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.14-22.14.16:703][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.14-22.14.16:703][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.14-22.14.16:703][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.14-22.14.17:247][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.14-22.14.17:294][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Tetewet/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.04.14-22.14.17:295][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tetewet/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.04.14-22.14.17:295][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/egyptVR/Last_Pharaoh/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.14-22.14.17:295][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.14-22.14.17:295][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/egyptVR/Last_Pharaoh/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.14-22.14.17:295][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.14-22.14.17:307][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.14-22.14.17:307][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.14-22.14.17:307][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.14-22.14.17:320][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tetewet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.14-22.14.17:320][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.14-22.14.17:320][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.14-22.14.17:341][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.14-22.14.17:343][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.14-22.14.17:344][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.14-22.14.17:440][  0]LogAssetRegistry: FAssetRegistry took 0.0356 seconds to start up
+[2020.04.14-22.14.17:812][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.14-22.14.17:936][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.14-22.14.17:936][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.14-22.14.17:936][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.14-22.14.17:936][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.14-22.14.17:936][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.14-22.14.17:951][  0]LogNetVersion: Last_Pharaoh 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3119618968)
+[2020.04.14-22.14.18:388][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.052677 seconds
+[2020.04.14-22.14.18:396][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.04.14-22.14.18:396][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.04.14-22.14.18:396][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.14-22.14.19:371][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.14-22.14.19:396][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.14-22.14.20:499][  0]SourceControl: Source control is disabled
+[2020.04.14-22.14.20:499][  0]SourceControl: Source control is disabled
+[2020.04.14-22.14.20:652][  0]SourceControl: Source control is disabled
+[2020.04.14-22.14.20:664][  0]SourceControl: Source control is disabled
+[2020.04.14-22.14.21:513][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.14-22.14.22:202][  0]LogOcInput: OculusInput pre-init called
+[2020.04.14-22.14.23:623][  0]LogEngine: Initializing Engine...
+[2020.04.14-22.14.23:690][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.04.14-22.14.23:692][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.14-22.14.23:990][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/Last_Pharaoh.TrapManager'
+[2020.04.14-22.14.23:990][  0]LogEngine: Error: Engine config value GameSingletonClassName '/Script/Last_Pharaoh.TrapManager' is not a valid class name.
+[2020.04.14-22.14.23:992][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.14-22.14.24:181][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.14-22.14.24:233][  0]LogInit: XAudio2 using 'Speakers (2- Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.14-22.14.24:281][  0]LogInit: FAudioDevice initialized.
+[2020.04.14-22.14.24:281][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.14-22.14.24:342][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Tetewet/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.04.14-22.14.24:349][  0]LogInit: Texture streaming: Enabled
+[2020.04.14-22.14.24:490][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.14-22.14.24:498][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={67D5E5DF-41B1-9F93-CA07-659E6AEBAA94}
+[2020.04.14-22.14.24:670][  0]LogInit: Transaction tracking system initialized
+[2020.04.14-22.14.24:960][  0]BlueprintLog: New page: Editor Load
+[2020.04.14-22.14.25:774][  0]LocalizationService: Localization service is disabled
+[2020.04.14-22.14.27:164][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/egyptVR/Last_Pharaoh/Content/' took 0.01s
+[2020.04.14-22.14.27:164][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.14-22.14.27:164][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.14-22.14.28:546][  0]SourceControl: Source control is disabled
+[2020.04.14-22.14.28:547][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Scenes/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.14-22.14.28:607][  0]LightingResults: New page: Lighting Build
+[2020.04.14-22.14.28:818][  0]MapCheck: New page: Map Check
+[2020.04.14-22.14.28:818][  0]LightingResults: New page: Lighting Build
+[2020.04.14-22.14.28:850][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.04.14-22.14.29:966][  0]LogAIModule: Creating AISystem for world TestMap
+[2020.04.14-22.14.29:974][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.14-22.14.30:008][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.04.14-22.14.30:008][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.14-22.14.30:009][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.144ms to complete.
+[2020.04.14-22.14.30:009][  0]LogFileHelpers: Loading map 'TestMap' took 1.462
+[2020.04.14-22.14.30:418][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-22.14.30:425][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-22.14.30:432][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-22.14.30:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-22.14.30:476][  0]LogCollectionManager: Loaded 0 collections in 0.001106 seconds
+[2020.04.14-22.14.30:563][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/egyptVR/Last_Pharaoh/Saved/Collections/' took 0.01s
+[2020.04.14-22.14.30:563][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/egyptVR/Last_Pharaoh/Content/Developers/Tetewet/Collections/' took 0.01s
+[2020.04.14-22.14.30:563][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/egyptVR/Last_Pharaoh/Content/Collections/' took 0.00s
+[2020.04.14-22.14.30:563][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.04.14-22.14.30:575][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2737 classes and 661 folders.
+[2020.04.14-22.14.30:606][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.14-22.14.30:720][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.30:838][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.30:841][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.30:859][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.30:877][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.30:879][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.30:893][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.30:920][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.30:948][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:015][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:153][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:161][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:166][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:169][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:171][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:173][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:299][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:335][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:469][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:472][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:474][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:475][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:477][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:512][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:528][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.31:531][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.14-22.14.33:230][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.14-22.14.33:262][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.04.14-22.14.33:357][  0]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.14-22.14.33:359][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.14-22.14.33:387][  0]LogSlate: Took 0.022593 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.14-22.14.33:522][  0]LogRenderer: Reallocating scene render targets to support 1208x560 Format 10 NumSamples 1 (Frame:1).
+[2020.04.14-22.14.34:205][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.04.14-22.14.34:205][  0]LogLoad: (Engine Initialization) Total time: 80.98 seconds
+[2020.04.14-22.14.34:205][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.14-22.14.34:216][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.14-22.14.34:249][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.14-22.14.34:310][  0]LogSlate: Took 0.021636 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.14-22.14.40:150][692]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.04.14-22.14.40:778][767]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.14-22.14.42:103][767]LogAIModule: Creating AISystem for world LastPharaoh_MainScene
+[2020.04.14-22.14.42:127][767]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/LastPharaoh_MainScene.LastPharaoh_MainScene
+[2020.04.14-22.14.42:165][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.04.14-22.14.42:166][767]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Maps/LastPharaoh_MainScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.14-22.14.42:166][767]LightingResults: New page: Lighting Build
+[2020.04.14-22.14.42:167][767]LoadErrors: New page: Loading map: LastPharaoh_MainScene.umap
+[2020.04.14-22.14.42:174][767]MapCheck: New page: Map Check
+[2020.04.14-22.14.42:174][767]LightingResults: New page: Lighting Build
+[2020.04.14-22.14.42:207][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.04.14-22.14.42:338][767]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.14-22.14.42:389][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.04.14-22.14.42:398][767]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.14-22.14.42:398][767]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.154ms to complete.
+[2020.04.14-22.14.42:398][767]LogFileHelpers: Loading map 'LastPharaoh_MainScene' took 0.233
+[2020.04.14-22.14.44:001][953]LogAssetRegistry: Asset discovery search completed in 26.5830 seconds
+[2020.04.14-22.14.44:003][953]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2020.04.14-22.14.45:122][ 85]LogEditorViewport: Clicking on Actor (LMB): BP_Trap_C (BP_Trap)
+[2020.04.14-22.15.29:896][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.14-22.15.32:097][350]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.04.14-22.15.32:103][350]Candidate modules for hot reload:
+[2020.04.14-22.15.32:103][350]  Last_Pharaoh
+[2020.04.14-22.15.32:103][350]Launching UnrealBuildTool... [D:/Unreal/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Last_Pharaoh,141 Win64 Development -TargetType=Editor -Project="D:/Unreal Projects/egyptVR/Last_Pharaoh/Last_Pharaoh.uproject" "D:/Unreal Projects/egyptVR/Last_Pharaoh/Last_Pharaoh.uproject"  -IgnoreJunk]
+[2020.04.14-22.15.32:112][350]Warning: Starting HotReload took  0.0s.
+[2020.04.14-22.15.43:261][655]CompilerResultsLog: New page: Compilation - Apr 14, 2020, 2:15:43 PM
+[2020.04.14-22.15.43:261][655]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\egyptVR).
+[2020.04.14-22.15.43:261][655]CompilerResultsLog: Creating makefile for Last_PharaohEditor (no existing makefile)
+[2020.04.14-22.15.43:261][655]CompilerResultsLog: Parsing headers for Last_PharaohEditor
+[2020.04.14-22.15.43:261][655]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\egyptVR\Last_Pharaoh\Last_Pharaoh.uproject" "D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\Last_PharaohEditor\Development\Last_PharaohEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.14-22.15.43:261][655]CompilerResultsLog: Reflection code generated for Last_PharaohEditor in 7.7365352 seconds
+[2020.04.14-22.15.43:261][655]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.14-22.15.43:261][655]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.04.14-22.15.43:261][655]CompilerResultsLog:   [1/3] UE4Editor-Last_Pharaoh-0141.lib
+[2020.04.14-22.15.43:261][655]CompilerResultsLog:      Creating library D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-0141.lib and object D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-0141.exp
+[2020.04.14-22.15.43:261][655]CompilerResultsLog:   [2/3] UE4Editor-Last_Pharaoh-0141.dll
+[2020.04.14-22.15.43:261][655]CompilerResultsLog:      Creating library D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-0141.suppressed.lib and object D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-0141.suppressed.exp
+[2020.04.14-22.15.43:261][655]CompilerResultsLog:   [3/3] Last_PharaohEditor.target
+[2020.04.14-22.15.43:261][655]CompilerResultsLog: Total time in Parallel executor: 1.24 seconds
+[2020.04.14-22.15.43:261][655]CompilerResultsLog: Total execution time: 11.04 seconds
+[2020.04.14-22.15.43:261][655]LogMainFrame: MainFrame: Module compiling took 11.165 seconds
+[2020.04.14-22.15.43:292][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.04.14-22.15.43:329][655]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2738 classes and 663 folders.
+[2020.04.14-22.15.43:351][655]Display: HotReload took 11.3s.
+[2020.04.14-22.15.47:729][171]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2020.04.14-22.15.47:729][171]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2020.04.14-22.16.10:451][673]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.04.14-22.16.16:258][107]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Trap.BP_Trap
+[2020.04.14-22.16.16:620][107]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2020.04.14-22.16.19:467][287]LogRenderer: Reallocating scene render targets to support 1208x708 Format 10 NumSamples 1 (Frame:82).
+[2020.04.14-22.16.19:733][318]LogSlate: Window 'BP_Trap' being destroyed
+[2020.04.14-22.16.20:779][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Trap" FILE="../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Blueprints/BP_Trap.uasset" SILENT=true
+[2020.04.14-22.16.20:793][436]LogSavePackage: Moving '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Saved/BP_TrapA268F5134D181B57C8717899D7C44B78.tmp' to '../../../../../Unreal Projects/egyptVR/Last_Pharaoh/Content/Blueprints/BP_Trap.uasset'
+[2020.04.14-22.16.21:001][456]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.14-22.16.26:403][ 91]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.14-22.18.03:383][451]BlueprintLog: New page: Compile BP_Trap
+[2020.04.14-22.18.03:406][451]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.04.14-22.18.03:624][451]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.218 s
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: === Handled ensure: ===
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: 
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1854]
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: Template Mismatch during attachment. Attaching instanced component to template component. Parent 'BaseMesh' (Owner 'None') Self 'CollisionBox' (Owner 'BP_Trap_C_0').
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: Stack: 
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: [Callstack] 0x00007ff93bcee50c UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: [Callstack] 0x00007ff93ab25cf0 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: [Callstack] 0x00007ff93ab4b6d9 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: [Callstack] 0x00007ff93aaf402e UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: [Callstack] 0x00007ff93aa74cfd UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: [Callstack] 0x00007ff93aa9aa71 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: [Callstack] 0x00007ff93a70e831 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: [Callstack] 0x00007ff93a71b06c UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: [Callstack] 0x00007ff93a71922e UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: [Callstack] 0x00007ff93af33eb5 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: [Callstack] 0x00007ff93af342e7 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-22.18.03:624][451]LogOutputDevice: Error: [Callstack] 0x00007ff93967b76e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff93967d34c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff93963d7ab UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff943cdffba UE4Editor-Kismet.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff943c920fe UE4Editor-Kismet.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff939645644 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff943d7dde6 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff943d99188 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff947d4180a UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff947e19122 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff947dfaa84 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff947eb2a12 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff947d04021 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff947d80301 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff947d6aaca UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff947d60414 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff984b3b8e0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff984b2ef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff984b3d77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff984b2c090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff9c4a15c0d USER32.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff9c4a15602 USER32.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff984b3e946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff6baa35d3e UE4Editor.exe!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff6baa4554c UE4Editor.exe!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff6baa455ca UE4Editor.exe!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff6baa5316c UE4Editor.exe!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff6baa55b8e UE4Editor.exe!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff9c43c7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: [Callstack] 0x00007ff9c598ced1 ntdll.dll!UnknownFunction []
+[2020.04.14-22.18.03:625][451]LogOutputDevice: Error: 
+[2020.04.14-22.18.03:633][451]LogStats:                SubmitErrorReport -  0.000 s

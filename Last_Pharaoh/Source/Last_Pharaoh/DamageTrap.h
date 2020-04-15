@@ -32,4 +32,5 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
 	void TrapActivation();
+	bool GetTrapActivated();
 };

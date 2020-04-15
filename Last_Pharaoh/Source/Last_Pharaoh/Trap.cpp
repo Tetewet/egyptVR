@@ -10,12 +10,31 @@ ATrap::ATrap()
 	PrimaryActorTick.bCanEverTick = true;
 
 	//give a static mesh to the trap
-	BaseMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BaseMesh"));
-	BaseMesh->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
-
+	BaseMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("BaseMesh"));
+	BaseMesh->AttachTo(RootComponent);
 	RootComponent = BaseMesh;
 
-	
+	//give a collision box to activate animations
+	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionBox"));
+	CollisionBox->AttachTo(RootComponent);
+
+	//give a mesh to make the animations (spikes for the trap)
+	SpikeLeft = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SpikeLeft"));
+	SpikeLeft->AttachTo(RootComponent);
+	SpikeRight = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SpikeRight"));
+	SpikeRight->AttachTo(RootComponent);
+
+	//set the animations to assets (not blueprints)
+	SpikeLeft->SetAnimationMode(EAnimationMode::AnimationSingleNode);
+	SpikeRight->SetAnimationMode(EAnimationMode::AnimationSingleNode);
+
+	//don't loop the animations
+	SpikeLeft->AnimationData.bSavedLooping = false;
+	SpikeRight->AnimationData.bSavedLooping = false;
+
+	//don't start the animations
+	SpikeLeft->AnimationData.bSavedPlaying = false;
+	SpikeRight->AnimationData.bSavedPlaying = false;
 }
 
 // Called when the game starts or when spawned
@@ -23,12 +42,8 @@ void ATrap::BeginPlay()
 {
 	Super::BeginPlay();
 
-	Location = GetActorLocation();
-	Rotation = GetActorRotation();
-	FTimerHandle TrapTimerHandle;
-	//GetWorld()->GetTimerManager().SetTimer(TrapTimerHandle, this, &ATrap::TriggeredTrap, TrapTimer, true, 5); //TODO might need to change the 5 value here
-}
 
+}
 // Called every frame
 void ATrap::Tick(float DeltaTime)
 {
@@ -36,12 +51,29 @@ void ATrap::Tick(float DeltaTime)
 
 }
 
-//function that spawns a damagetrap that damages the player if he goes through here
+void ATrap::NotifyActorBeginOverlap(AActor* OtherActor)
+{
+	//making sure the actor overlapping is our vrcharacter
+	auto player = Cast<AVRCharacter>(OtherActor);
+	if (player != nullptr)
+	{
+		TriggeredTrap();
+	}
+}
+
+//function that triggers the animation of the trap if the damage trap is not destroyed
 void ATrap::TriggeredTrap()
 {
 	//spawn damage traps
 	if (DamageTrap != nullptr)
 	{
-		//GetWorld()->SpawnActor(DamageTrap, &Location, &Rotation);
+		auto trap = Cast<ADamageTrap>(DamageTrap);
+		if (trap->GetTrapActivated()
+			&& SpikeLeft->AnimationData.AnimToPlay != nullptr
+			&& SpikeRight->AnimationData.AnimToPlay != nullptr)
+		{
+			SpikeLeft->PlayAnimation(SpikeLeft->AnimationData.AnimToPlay, false); //the false is for looping
+			SpikeRight->PlayAnimation(SpikeRight->AnimationData.AnimToPlay, false);
+		}
 	}
 }

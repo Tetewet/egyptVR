@@ -68,6 +68,8 @@ private:
 	UPROPERTY(EditAnywhere)
 		class UMaterialInterface* BlinkerMaterial;
 	UPROPERTY()
+		UWorld* Wrld;
+	UPROPERTY()
 		class UMaterialInstanceDynamic* BlinkerMaterialInstance;
 	UPROPERTY(EditAnywhere)
 		class UCurveFloat* BlinkerRadius;
@@ -84,4 +86,6 @@ private:
 	void EndTeleport();
 	void UpdateBlinker();
 	void TorchLamp();
+public:
+	void DeathReset();
 };

@@ -21,8 +21,14 @@ public:
 	ATrap();
 
 	//i dont need a collision box, just a location from whom to spawn the damage traps
-	UPROPERTY(VisibleAnywhere)
-		UStaticMeshComponent* BaseMesh;
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* CollisionBox;
+	UPROPERTY(EditAnywhere)
+		USkeletalMeshComponent* BaseMesh;
+	UPROPERTY(EditAnywhere)
+		USkeletalMeshComponent* SpikeLeft;
+	UPROPERTY(EditAnywhere)
+		USkeletalMeshComponent* SpikeRight;
 	UPROPERTY(EditAnywhere)
 		float TrapTimer = 2;
 	UPROPERTY(EditAnywhere)
@@ -30,7 +36,7 @@ public:
 	UPROPERTY(EditAnywhere)
 		FRotator Rotation;
 	UPROPERTY(EditAnywhere)
-		TSubclassOf<ADamageTrap> DamageTrap;
+		ADamageTrap* DamageTrap;
 
 protected:
 	// Called when the game starts or when spawned
@@ -39,5 +45,6 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
 	void TriggeredTrap();
 };
