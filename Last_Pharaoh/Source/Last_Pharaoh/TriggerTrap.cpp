@@ -27,6 +27,8 @@ ATriggerTrap::ATriggerTrap()
 	DeactivationAudio->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
 	ActivationAudio->Activate(false);
 	DeactivationAudio->Activate(false);
+
+	bIsActivatedOnce = false;
 }
 
 // Called when the game starts or when spawned
@@ -34,10 +36,6 @@ void ATriggerTrap::BeginPlay()
 {
 	Super::BeginPlay();
 
-	bIsActivatedOnce = false;
-
-	//activate the designated trap
-	DamageTrap->TrapActivation();
 }
 
 // Called every frame
@@ -54,10 +52,14 @@ void ATriggerTrap::NotifyActorBeginOverlap(AActor* OtherActor)
 	if (player != nullptr && DamageTrap != nullptr)
 	{
 		//check if we are the activator : different sound and logic
-		if (bIsTrapActivator && ActivationAudio != nullptr)
+		if (bIsTrapActivator && ActivationAudio != nullptr && !bIsActivatedOnce)
 		{
+			//activate the designated trap
+			DamageTrap->TrapActivation();
+
 			//activate a sound 
 			ActivationAudio->Play();
+			bIsActivatedOnce = true;
 		}
 		else
 		{

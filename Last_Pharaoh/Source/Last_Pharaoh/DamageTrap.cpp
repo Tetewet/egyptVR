@@ -41,13 +41,13 @@ void ADamageTrap::NotifyActorBeginOverlap(AActor* OtherActor)
 	auto player = Cast<AVRCharacter>(OtherActor);
 	if (player != nullptr && bIsTriggered)
 	{
-		//put a delay, and make the character not move anymore
-		OtherActor->GetComponentByClass(UCharacterMovementComponent::StaticClass());
-		player->GetCharacterMovement()->StopActiveMovement();
-
+		//put a delay, and make sure the character not move anymore
+		//OtherActor->GetComponentByClass(UCharacterMovementComponent::StaticClass());
+		//player->GetCharacterMovement()->StopActiveMovement();
 		
 		//reset the player to the base location -> he's dead
-		player->DeathReset();
+		UGameplayStatics::OpenLevel(this, FName("/Game/Maps/LastPharaoh_MainScene"));
+		//player->DeathReset();
 	}
 }
 

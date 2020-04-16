@@ -61,8 +61,6 @@ private:
 		float TeleportFadeTimer = 0.8f;
 	UPROPERTY(EditAnywhere)
 		float FadeTime = 0.5f;
-	float ReloadTimer = 3.0f;
-	bool bIsTorchLampOn = false;
 	UPROPERTY(EditAnywhere)
 		float MaxTeleport = 1000;
 	UPROPERTY(EditAnywhere)
@@ -80,6 +78,8 @@ private:
 	UPROPERTY(EditAnywhere)
 		class UCurveFloat* BlinkerRadius;
 
+	float ReloadTimer = 3.0f;
+	bool bIsTorchLampOn = false;
 
 	APlayerController* PlayerController;
 
@@ -92,7 +92,7 @@ private:
 	void EndTeleport();
 	void UpdateBlinker();
 	void TorchLamp();
-	void ReloadScene();
-public:
-	void DeathReset();
+	//void ReloadScene();
+//public:
+	//void DeathReset();
 };

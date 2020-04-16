@@ -200,11 +200,13 @@ void AVRCharacter::UpdateBlinker()
 
 void AVRCharacter::TorchLamp()
 {
+	//activate torch
 	if (!bIsTorchLampOn)
 	{
 		TorchLight->SetLightBrightness(500);
 		bIsTorchLampOn = true;
 	}
+	//deactivate torch
 	else
 	{
 		TorchLight->SetLightBrightness(0);
@@ -212,15 +214,15 @@ void AVRCharacter::TorchLamp()
 	}
 }
 
-void AVRCharacter::DeathReset()
-{
-	//mettre un delay avant de recommencer le niveau
-	FTimerHandle TimerHandle;
-	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AVRCharacter::DeathReset, ReloadTimer, true);
-}
-
-void AVRCharacter::ReloadScene()
-{
-	//reload la scene
-	UGameplayStatics::OpenLevel(this, FName("/Game/Maps/LastPharaoh_MainScene"));
-}
+//void AVRCharacter::DeathReset()
+//{
+//	//mettre un delay avant de recommencer le niveau
+//	FTimerHandle TimerHandle;
+//	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AVRCharacter::DeathReset, ReloadTimer, true);
+//}
+//
+//void AVRCharacter::ReloadScene()
+//{
+//	//reload la scene
+//	UGameplayStatics::OpenLevel(this, FName("/Game/Maps/LastPharaoh_MainScene"));
+//}

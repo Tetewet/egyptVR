@@ -1,0 +1,29 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\egyptVR).
+  Creating makefile for Last_PharaohEditor (ini files are newer than makefile)
+  Parsing headers for Last_PharaohEditor
+    Running UnrealHeaderTool "D:\Unreal Projects\egyptVR\Last_Pharaoh\Last_Pharaoh.uproject" "D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\Last_PharaohEditor\Development\Last_PharaohEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for Last_PharaohEditor in 12.1205002 seconds
+  Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 11 actions with 12 processes...
+    [1/11] Trap.cpp
+D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\Trap.cpp(14): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\Trap.cpp(19): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\Trap.cpp(23): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\Trap.cpp(25): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    [2/11] DamageTrap.cpp
+    [3/11] TriggerTrap.cpp
+    [4/11] DamageTrap.gen.cpp
+    [5/11] VRCharacter.gen.cpp
+    [6/11] Trap.gen.cpp
+    [7/11] TriggerTrap.gen.cpp
+    [8/11] VRCharacter.cpp
+D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\VRCharacter.cpp(34): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\VRCharacter.cpp(36): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+D:\Unreal Projects\egyptVR\Last_Pharaoh\Source\Last_Pharaoh\VRCharacter.cpp(40): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    [9/11] UE4Editor-Last_Pharaoh-0005.lib
+       Creating library D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-0005.lib and object D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-0005.exp
+    [10/11] UE4Editor-Last_Pharaoh-0005.dll
+       Creating library D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-0005.suppressed.lib and object D:\Unreal Projects\egyptVR\Last_Pharaoh\Intermediate\Build\Win64\UE4Editor\Development\Last_Pharaoh\UE4Editor-Last_Pharaoh-0005.suppressed.exp
+    [11/11] Last_PharaohEditor.target
+  Total time in Parallel executor: 817.98 seconds
+  Total execution time: 839.70 seconds
