@@ -50,6 +50,10 @@ private:
 	UPROPERTY(VisibleAnywhere)
 		UMotionControllerComponent* RightMController;
 	UPROPERTY(VisibleAnywhere)
+		UBoxComponent* LeftMController_CB;
+	UPROPERTY(VisibleAnywhere)
+		UBoxComponent* RightMController_CB;
+	UPROPERTY(VisibleAnywhere)
 		USpotLightComponent* TorchLight;
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* TeleportMarker;
@@ -58,6 +62,7 @@ private:
 	UPROPERTY(EditAnywhere)
 		float FadeTime = 0.5f;
 	float ReloadTimer = 3.0f;
+	bool bIsTorchLampOn = false;
 	UPROPERTY(EditAnywhere)
 		float MaxTeleport = 1000;
 	UPROPERTY(EditAnywhere)

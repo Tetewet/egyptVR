@@ -21,16 +21,25 @@ AVRCharacter::AVRCharacter()
 	LeftMController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("LeftMController"));
 	LeftMController->SetupAttachment(VRRoot);
 	LeftMController->SetTrackingSource(EControllerHand::Left);
-	LeftMController->bDisplayDeviceModel = true;
 	RightMController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("RightMController"));
 	RightMController->SetupAttachment(VRRoot);
 	RightMController->SetTrackingSource(EControllerHand::Right);
+
+	//controller meshes
+	LeftMController->bDisplayDeviceModel = true;
 	RightMController->bDisplayDeviceModel = true;
+
+	//collision boxes for the controllers
+	LeftMController_CB = CreateDefaultSubobject<UBoxComponent>(TEXT("LeftC_Collision"));
+	LeftMController_CB->AttachTo(LeftMController);
+	RightMController_CB = CreateDefaultSubobject<UBoxComponent>(TEXT("RightC_Collision"));
+	RightMController_CB->AttachTo(RightMController);
 
 	//torchlight
 	TorchLight = CreateDefaultSubobject<USpotLightComponent>(TEXT("TorchLamp"));
 	TorchLight->AttachTo(RightMController);
 	TorchLight->bAutoActivate = false;
+	TorchLight->SetLightBrightness(0);
 
 	//teleport marker
 	TeleportMarker = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TeleportMarker"));
@@ -39,7 +48,6 @@ AVRCharacter::AVRCharacter()
 	//post process component
 	PostProcessComponent = CreateDefaultSubobject<UPostProcessComponent>(TEXT("PostProcessComponent"));
 	PostProcessComponent->SetupAttachment(GetRootComponent());
-
 }
 
 // Called when the game starts or when spawned
@@ -81,7 +89,7 @@ void AVRCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	//teleport actions
 	PlayerInputComponent->BindAction(TEXT("Teleport"), IE_Released, this, &AVRCharacter::BeginTeleport);
 	//torchlight actions
-	PlayerInputComponent->BindAction(TEXT("TorchLamp"), IE_Pressed, this, &AVRCharacter::TorchLamp);
+	PlayerInputComponent->BindAction(TEXT("TorchLamp"), IE_Released, this, &AVRCharacter::TorchLamp);
 }
 //this is to move forward or backwards
 void AVRCharacter::MoveForward(float move)
@@ -192,7 +200,16 @@ void AVRCharacter::UpdateBlinker()
 
 void AVRCharacter::TorchLamp()
 {
-	TorchLight->Activate();
+	if (!bIsTorchLampOn)
+	{
+		TorchLight->SetLightBrightness(500);
+		bIsTorchLampOn = true;
+	}
+	else
+	{
+		TorchLight->SetLightBrightness(0);
+		bIsTorchLampOn = false;
+	}
 }
 
 void AVRCharacter::DeathReset()
